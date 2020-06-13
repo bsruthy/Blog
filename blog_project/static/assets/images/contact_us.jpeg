@@ -1,0 +1,1766 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>‘Contact Us’ Page Guidelines</title><link rel="preconnect" href="https://media.nngroup.com/"><link rel="preconnect" href="https://consent.cookiebot.com/"><link rel="preconnect" href="https://consentcdn.cookiebot.com/"><link rel="preconnect" href="https://www.googletagmanager.com/"><link rel="preconnect" href="https://dnn506yrbagrg.cloudfront.net/"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="description" content="Users still expect to see company addresses, phone numbers, and email addresses on ‘Contact Us’ pages. Don’t hide or replace these elements with automated tools such as ‘Contact Us’ forms or chat."><meta property="og:description" content="Users still expect to see company addresses, phone numbers, and email addresses on ‘Contact Us’ pages. Don’t hide or replace these elements with automated tools such as ‘Contact Us’ forms or chat." /><meta name="keywords" content="contact us, contact us page, contact us page design, best contact us pages, contact us page examples, contact us form, customer service, contact me page, contact page, contact pages, designing contact pages, designing contact us pages, contact page design, contact us page design, website contact us page, contact us UX, contact us website design, user experience contact us, how to design a contact us page."><meta name="robots" content="noarchive"><meta name="twitter:dnt" content="on"><meta property="og:title" content="‘Contact Us’ Page Guidelines"><meta property="og:url" content="https://www.nngroup.com/articles/contact-us-pages/" /><meta property="og:site_name" content="Nielsen Norman Group" /><meta property="og:type" content="article" /><meta property="og:image" content="https://media.nngroup.com/media/articles/opengraph_images/contact-us-pages.png" /><meta name="twitter:site" content="@nngroup" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:creator" content="@akaleyux" /><link rel="canonical" href="https://www.nngroup.com/articles/contact-us-pages/"><link rel="search" type="application/opensearchdescription+xml" title="NN/g Search" href="/opensearch.xml" /><link rel="shortcut icon" href="https://media.nngroup.com/static/img/favicon.ico" /><link rel="stylesheet" href="https://media.nngroup.com/static/css/32ab0bed1958.css" type="text/css" /><!--[if lte IE 8]><script type="text/javascript" src="https://media.nngroup.com/static/vendor/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]><!--><script src="https://media.nngroup.com/static/js/jquery-3.2.1.min.js"></script><!--<![endif]--><script type="text/javascript">;/*! js-cookie v2.1.4 | MIT */!function(a){var b=!1;if("function"==typeof define&&define.amd&&(define(a),b=!0),"object"==typeof exports&&(module.exports=a(),b=!0),!b){var c=window.Cookies,d=window.Cookies=a();d.noConflict=function(){return window.Cookies=c,d}}}(function(){function a(){for(var a=0,b={};a<arguments.length;a++){var c=arguments[a];for(var d in c)b[d]=c[d]}return b}function b(c){function d(b,e,f){var g;if("undefined"!=typeof document){if(arguments.length>1){if(f=a({path:"/"},d.defaults,f),"number"==typeof f.expires){var h=new Date;h.setMilliseconds(h.getMilliseconds()+864e5*f.expires),f.expires=h}f.expires=f.expires?f.expires.toUTCString():"";try{g=JSON.stringify(e),/^[\{\[]/.test(g)&&(e=g)}catch(p){}e=c.write?c.write(e,b):encodeURIComponent(e+"").replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),b=encodeURIComponent(b+""),b=b.replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent),b=b.replace(/[\(\)]/g,escape);var i="";for(var j in f)f[j]&&(i+="; "+j,!0!==f[j]&&(i+="="+f[j]));return document.cookie=b+"="+e+i}b||(g={});for(var k=document.cookie?document.cookie.split("; "):[],l=0;l<k.length;l++){var m=k[l].split("="),n=m.slice(1).join("=");'"'===n.charAt(0)&&(n=n.slice(1,-1));try{var o=m[0].replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent);if(n=c.read?c.read(n,o):c(n,o)||n.replace(/(%[0-9A-Z]{2})+/g,decodeURIComponent),this.json)try{n=JSON.parse(n)}catch(p){}if(b===o){g=n;break}b||(g[o]=n)}catch(p){}}return g}}return d.set=d,d.get=function(a){return d.call(d,a)},d.getJSON=function(){return d.apply({json:!0},[].slice.call(arguments))},d.defaults={},d.remove=function(b,c){d(b,"",a(c,{expires:-1}))},d.withConverter=b,d}return b(function(){})});;(function(jQuery){jQuery.ajaxSettings.xdr=function(){return(window.XDomainRequest?new window.XDomainRequest():null);};(function(xdr){jQuery.extend(jQuery.support,{iecors:!!xdr});})(jQuery.ajaxSettings.xdr());if(jQuery.support.iecors){jQuery.ajaxTransport(function(s){var callback;return{send:function(headers,complete){var xdr=s.xdr();xdr.onload=function(){var headers={'Content-Type':xdr.contentType};complete(200,'OK',{text:xdr.responseText},headers);};if(s.xhrFields){xhr.onerror=s.xhrFields.error;xhr.ontimeout=s.xhrFields.timeout;}
+xdr.open(s.type,s.url);xdr.send((s.hasContent&&s.data)||null);},abort:function(){xdr.abort();}};});}})(jQuery);</script><script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="721be388-83be-48ef-9882-002f0dc9dc4f" async></script><!-- Google Tag Manager --><script >(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-THJDDHK');</script><!-- End Google Tag Manager --><!-- Cloudfront--><script>
+ setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/2421.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script><script>dataLayer = window.dataLayer || [];</script>
+    
+  <link rel="stylesheet" href="https://media.nngroup.com/static/css/6203e084e5e9.css" type="text/css" />
+
+  </head>
+
+  <body class=" sidebar-base left-sidebar publication article-detail" >
+    
+    <header class="main">
+      <div class="wrapper">
+
+        
+          
+          <div class="skipnav-container"><p>
+            
+  <a href="#body-content" class="skipnav-link" tabindex="1">Skip navigation</a>
+
+          </p></div>
+        
+
+        <div><div class="shopping-cart"></div></div>
+        <div class="grid">
+          <div class="search">
+            <form method="GET" action="/search/">
+              <div class="only small large desktop" id="searchSection">
+                <ul class="no-bullet actions">
+                  <li class="certification" id="loginLink">
+                    <noscript>
+                      
+                        <a href="/login/">Log in to UX Certification</a>
+                      
+                    </noscript></li>
+                </ul>
+                <div class="input action">
+                  <input aria-label="Search" type="text" name="q">
+                  <button aria-label="Search" class="secondary button" type="submit">Search</button>
+                </div>
+              </div>
+              <div class="only mobile">
+                <button class="secondary button toggle" id="searchToggle" aria-label="Search Toggle">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Grid area "logo" -->
+          <div class="logo">
+            
+            <a href="/">
+              
+<img src="https://media.nngroup.com/static/img/logo-817x388.png" alt="Nielsen Norman Group logo"><span class="company-name">Nielsen <span class="highlight">Norman</span> Group</span>
+
+            </a>
+            
+            <h4 class="byline only large small desktop">
+              World Leaders in Research-Based User Experience
+            </h4>
+          </div>
+
+          <!-- Component: main navigation -->
+          
+          
+          <nav class="desktop main">
+            
+            <ul class="primary">
+              
+              <li class="">
+                
+                  <a href="/">Home</a>
+                
+              </li>
+              
+              <li class="active">
+                
+                  <a href="/articles/">Articles</a>
+                
+              </li>
+              
+              <li class="">
+                
+                  <a href="/training/">Training &amp; Events</a>
+                
+              </li>
+              
+              <li class="">
+                
+                  <a href="/consulting/">Consulting</a>
+                
+              </li>
+              
+              <li class="">
+                
+                  <a href="/reports/">Reports &amp; Books</a>
+                
+              </li>
+              
+              <li class="">
+                
+                  <a href="/about/">About NN/g</a>
+                
+              </li>
+              
+            </ul>
+            
+
+            <ul class="secondary">
+              
+                
+              
+            </ul>
+          </nav>
+          
+
+          <div class="mobile only collapsable-menu">
+            <input type="checkbox" id="mobileMenu" aria-hidden="true">
+            <label for="mobileMenu" tabindex="0" role="link">Menu</label>
+            <nav class="menu-content" role="navigation">
+              <ul>
+                
+                  <li>
+                    
+                      <a href="/">Home</a>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <a href="/articles/">Articles</a>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <input type="checkbox" id="menu-3" aria-hidden="true">
+                      <label for="menu-3" role="link">Training &amp; Events <span class="chevron fas fa-chevron-down"></span></label>
+                      <div class="menu-content">
+                        <ul>
+                          <li><a href="/training/" aria-label="Training &amp; Events Overview">Overview</a></li>
+                          
+                            <li><a href="/ux-conference/">UX Conference</a></li>
+                          
+                            <li><a href="/ux-certification/">UX Certification</a></li>
+                          
+                            <li><a href="/in-house-training/">In-House Training</a></li>
+                          
+                            <li><a href="/online-seminars/">Online Seminars</a></li>
+                          
+                        </ul>
+                      </div>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <input type="checkbox" id="menu-4" aria-hidden="true">
+                      <label for="menu-4" role="link">Consulting <span class="chevron fas fa-chevron-down"></span></label>
+                      <div class="menu-content">
+                        <ul>
+                          <li><a href="/consulting/" aria-label="Consulting Overview">Overview</a></li>
+                          
+                            <li><a href="/consulting/user-testing/">User Testing</a></li>
+                          
+                            <li><a href="/consulting/user-research/">Customized User Research</a></li>
+                          
+                            <li><a href="/consulting/expert-review/">Expert Review</a></li>
+                          
+                            <li><a href="/in-house-training/">In-house UX Training</a></li>
+                          
+                            <li><a href="/consulting/applied-workshops/">Intensive Applied Workshops</a></li>
+                          
+                            <li><a href="/consulting/keynote-speaking/">Keynote Speaking</a></li>
+                          
+                        </ul>
+                      </div>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <a href="/reports/">Reports &amp; Books</a>
+                    
+                  </li>
+                
+                  <li>
+                    
+                      <input type="checkbox" id="menu-6" aria-hidden="true">
+                      <label for="menu-6" role="link">About NN/g <span class="chevron fas fa-chevron-down"></span></label>
+                      <div class="menu-content">
+                        <ul>
+                          <li><a href="/about/" aria-label="About NN/g Overview">Overview</a></li>
+                          
+                            <li><a href="/people/">People</a></li>
+                          
+                            <li><a href="/about/history/">History</a></li>
+                          
+                            <li><a href="/about/about-client-list/">Clients</a></li>
+                          
+                            <li><a href="/news/">News</a></li>
+                          
+                            <li><a href="/about/contact/">Contact Us</a></li>
+                          
+                        </ul>
+                      </div>
+                    
+                  </li>
+                
+                
+                  <li><a href="/ux-certification-profile">Log in</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper search mobile collapsed">
+        <div class="one column grid">
+          <form method="GET" action="/search/" role="search">
+            <div class="input action">
+              <input type="text" name="q" id="searchTerm" aria-label="Search Term">
+              <button class="secondary button" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+    
+
+    <main id="main">
+<section class="padded">
+  <div class="wrapper">
+    
+    <div class="twelve column grid">
+      <aside class="two wide mobile-twelve m-12-wide m-row-1 sidebar">
+        
+  
+
+  <div class="collapsable-content">
+    
+    <h1 class="only mobile collapse-link"><span class="icon fa fa-caret-right"></span>&nbsp;<strong>Browse All Topics &amp; Authors</strong></h1>
+    <div class="collapsable mobile collapsed">
+      <div id="navTopicsPopular" class="topic-list popular-topic-nav">
+        <h1><strong>Topics</strong></h1>
+        <ul class="relaxed no-bullet topics" id="article-popular-topics">
+          
+            <li><a href="/topic/agile/">Agile</a></li>
+          
+            <li><a href="/topic/ux-design-process/">Design Process</a></li>
+          
+            <li><a href="/topic/e-commerce/">Ecommerce</a></li>
+          
+            <li><a href="/topic/intranets/">Intranets</a></li>
+          
+            <li><a href="/topic/navigation/">Navigation</a></li>
+          
+            <li><a href="/topic/psychology-and-ux/">Psychology and UX</a></li>
+          
+            <li><a href="/topic/research-methods/">Research Methods</a></li>
+          
+            <li><a href="/topic/user-testing/">User Testing</a></li>
+          
+            <li><a href="/topic/web-usability/">Web Usability</a></li>
+          
+            <li><a href="/topic/writing-web/">Writing for the Web</a></li>
+          
+          <li><a href="" id="navTopics__seeAll"><strong><span class="far fa-caret-right"></span>&nbsp;See all topics</strong></a></li>
+        </ul>
+      </div>
+      <div id="navTopicsAll" class="topic-list all-topic-nav" style="display: none;">
+        <h1><strong>All Article Topics</strong></h1>
+        <ul class="relaxed no-bullet topics" id="article-all-topics">
+          <li><a href="" id="navTopics__seeFewer"><strong><span class="far fa-caret-down"></span>&nbsp;See fewer topics</strong></a></li>
+          
+            <li><a href="/topic/accessibility/">Accessibility</a></li>
+          
+            <li><a href="/topic/agile/">Agile</a></li>
+          
+            <li><a href="/topic/analytics-and-metrics/">Analytics &amp; Metrics</a></li>
+          
+            <li><a href="/topic/applications/">Application Design</a></li>
+          
+            <li><a href="/topic/b2b-websites/">B2B Websites</a></li>
+          
+            <li><a href="/topic/behavior-patterns/">Behavior Patterns</a></li>
+          
+            <li><a href="/topic/branding/">Branding</a></li>
+          
+            <li><a href="/topic/content-strategy/">Content Strategy</a></li>
+          
+            <li><a href="/topic/corporate-websites/">Corporate Websites</a></li>
+          
+            <li><a href="/topic/customer-journeys/">Customer Journeys</a></li>
+          
+            <li><a href="/topic/design-patterns/">Design Patterns</a></li>
+          
+            <li><a href="/topic/ux-design-process/">Design Process</a></li>
+          
+            <li><a href="/topic/e-commerce/">Ecommerce</a></li>
+          
+            <li><a href="/topic/email/">Email</a></li>
+          
+            <li><a href="/topic/eyetracking/">Eyetracking</a></li>
+          
+            <li><a href="/topic/heuristic-evaluation/">Heuristic Evaluation</a></li>
+          
+            <li><a href="/topic/human-computer-interaction/">Human Computer Interaction</a></li>
+          
+            <li><a href="/topic/ux-ideation/">Ideation</a></li>
+          
+            <li><a href="/topic/information-architecture/">Information Architecture</a></li>
+          
+            <li><a href="/topic/interaction-design/">Interaction Design</a></li>
+          
+            <li><a href="/topic/international-users/">International Users</a></li>
+          
+            <li><a href="/topic/intranets/">Intranets</a></li>
+          
+            <li><a href="/topic/ux-management/">Management</a></li>
+          
+            <li><a href="/topic/mobile-and-tablet-design/">Mobile &amp; Tablet</a></li>
+          
+            <li><a href="/topic/navigation/">Navigation</a></li>
+          
+            <li><a href="/topic/non-profit-websites/">Non-Profit Websites</a></li>
+          
+            <li><a href="/topic/personas/">Personas</a></li>
+          
+            <li><a href="/topic/persuasive-design/">Persuasive Design</a></li>
+          
+            <li><a href="/topic/prototyping/">Prototyping</a></li>
+          
+            <li><a href="/topic/psychology-and-ux/">Psychology and UX</a></li>
+          
+            <li><a href="/topic/research-methods/">Research Methods</a></li>
+          
+            <li><a href="/topic/search/">Search</a></li>
+          
+            <li><a href="/topic/social-media/">Social Media</a></li>
+          
+            <li><a href="/topic/strategy/">Strategy</a></li>
+          
+            <li><a href="/topic/user-testing/">User Testing</a></li>
+          
+            <li><a href="/topic/ux-teams/">UX Teams</a></li>
+          
+            <li><a href="/topic/visual-design/">Visual Design</a></li>
+          
+            <li><a href="/topic/web-usability/">Web Usability</a></li>
+          
+            <li><a href="/topic/writing-web/">Writing for the Web</a></li>
+          
+            <li><a href="/topic/young-users/">Young Users</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="popular-articles">
+        <h1><strong>Popular Articles</strong></h1>
+        <ul class="relaxed no-bullet" id="article-popular-articles">
+          
+            <li><a href="/articles/ten-usability-heuristics/">10 Usability Heuristics for User Interface Design</a></li>
+          
+            <li><a href="/articles/which-ux-research-methods/">When to Use Which User-Experience Research Methods</a></li>
+          
+            <li><a href="/articles/empathy-mapping/">Empathy Mapping: The First Step in Design Thinking</a></li>
+          
+            <li><a href="/articles/service-blueprints-definition/">Service Blueprints: Definition</a></li>
+          
+            <li><a href="/articles/between-within-subjects/">Between-Subjects vs. Within-Subjects Study Design</a></li>
+          
+            <li><a href="/articles/usability-101-introduction-to-usability/">Usability 101: Introduction to Usability</a></li>
+          
+            <li><a href="/articles/ux-research-cheat-sheet/">UX Research Cheat Sheet</a></li>
+          
+            <li><a href="/articles/ux-mapping-cheat-sheet/">UX Mapping Methods Compared: A Cheat Sheet</a></li>
+          
+            <li><a href="/articles/journey-mapping-101/">Journey Mapping 101</a></li>
+          
+            <li><a href="/articles/why-you-only-need-to-test-with-5-users/">Why You Only Need to Test with 5 Users</a></li>
+          
+        </ul>
+      </div>
+
+      
+      
+        <div class="recent-articles">
+          <h1><strong>Recent Articles</strong></h1>
+          <ul class="relaxed no-bullet" id="article-recent-articles">
+            
+              <li><a href="/articles/passive-information-acquisition/">Passive Information Acquisition on the Increase</a></li>
+            
+              <li><a href="/articles/how-people-read-online/">How People Read Online: New and Old Findings</a></li>
+            
+              <li><a href="/articles/slow-ui/">Slow UI: Pace Interaction to Increase Understanding</a></li>
+            
+              <li><a href="/articles/remote-ux/">Remote UX Work: Guidelines and Resources</a></li>
+            
+              <li><a href="/articles/good-abandonment/">Good Abandonment on Search Results Pages</a></li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div class="recent-videos">
+          <h1><strong>Recent Videos</strong></h1>
+          <ul class="relaxed no-bullet" id="article-recent-videos">
+            
+              <li><a href="/videos/total-remote-ux/">Can UX be 100% Remote?</a></li>
+            
+              <li><a href="/videos/retrospectives-sailboat/">Retrospectives 102: The Sailboat Method</a></li>
+            
+              <li><a href="/videos/10-best-intranets-2020/">10 Best Intranets of 2020</a></li>
+            
+              <li><a href="/videos/ux-and-covid-19/">What Can UX do to Help With Covid-19?</a></li>
+            
+              <li><a href="/videos/5-qualitative-research-methods/">5 Qualitative Research Methods</a></li>
+            
+          </ul>
+        </div>
+      
+
+      <div id="navAuthorsMain" class="article-authors">
+        <h1><strong>Authors</strong></h1>
+        <ul class="relaxed no-bullet" id="article-initial-authors">
+          
+            <li><a href="/articles/author/bruce-tognazzini/">Bruce Tognazzini</a></li>
+          
+            <li><a href="/articles/author/don-norman/">Don Norman</a></li>
+          
+            <li><a href="/articles/author/jakob-nielsen/">Jakob Nielsen</a></li>
+          
+          <li><a href="" id="navAuthors__seeAll"><strong><span class="far fa-caret-right"></span>&nbsp;See all authors</strong></a></li>
+        </ul>
+      </div>
+      <div id="navAuthorsAll" class="article-authors" style="display: none;">
+        <h1><strong>All Authors</strong></h1>
+        <ul class="relaxed no-bullet" id="article-all-authors">
+          <li><a href="" id="navAuthors__seeFewer"><strong><span class="far fa-caret-down"></span>&nbsp;See fewer authors</strong></a></li>
+          
+            <li><a href="/articles/author/raluca-budiu/">Raluca Budiu</a></li>
+          
+            <li><a href="/articles/author/patty-caya/">Patty Caya</a></li>
+          
+            <li><a href="/articles/author/therese-fessenden/">Therese Fessenden</a></li>
+          
+            <li><a href="/articles/author/kim-flaherty/">Kim Flaherty</a></li>
+          
+            <li><a href="/articles/author/sarah-gibbons/">Sarah Gibbons</a></li>
+          
+            <li><a href="/articles/author/kelley-gordon/">Kelley Gordon</a></li>
+          
+            <li><a href="/articles/author/aurora-harley/">Aurora Harley</a></li>
+          
+            <li><a href="/articles/author/alita-joyce/">Alita Joyce</a></li>
+          
+            <li><a href="/articles/author/anna-kaley/">Anna Kaley</a></li>
+          
+            <li><a href="/articles/author/lexie-kane/">Lexie Kane</a></li>
+          
+            <li><a href="/articles/author/kate-kaplan/">Kate Kaplan</a></li>
+          
+            <li><a href="/articles/author/rachel-krause/">Rachel Krause</a></li>
+          
+            <li><a href="/articles/author/page-laubheimer/">Page Laubheimer</a></li>
+          
+            <li><a href="/articles/author/feifei-liu/">Feifei Liu</a></li>
+          
+            <li><a href="/articles/author/hoa-loranger/">Hoa Loranger</a></li>
+          
+            <li><a href="/articles/author/kate-moran/">Kate Moran</a></li>
+          
+            <li><a href="/articles/author/jakob-nielsen/">Jakob Nielsen</a></li>
+          
+            <li><a href="/articles/author/don-norman/">Don Norman</a></li>
+          
+            <li><a href="/articles/author/kara-pernice/">Kara Pernice</a></li>
+          
+            <li><a href="/articles/author/christian-rohrer/">Christian Rohrer</a></li>
+          
+            <li><a href="/articles/author/maria-rosala/">Maria Rosala</a></li>
+          
+            <li><a href="/articles/author/katie-sherwin/">Katie Sherwin</a></li>
+          
+            <li><a href="/articles/author/bruce-tognazzini/">Bruce Tognazzini</a></li>
+          
+            <li><a href="/articles/author/kathryn-whitenton/">Kathryn Whitenton</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    
+
+    <section>
+      
+    </section>
+
+    
+  </div>
+
+      </aside>
+      <div id="body-content" class="ten wide mobile-twelve m-12-wide m-row-2 body-content">
+        
+  
+  <article>
+    <span id="gaDataLength" class="ga-data-layer" aria-hidden="true">12</span>
+
+    <h1>‘Contact Us’ Page Guidelines</h1>
+
+    <div class="publication-wrapper">
+      
+      <div class="publication-container">
+        <section class="lede">
+          <p><strong>Summary:</strong>&nbsp;Users still expect to see company addresses, phone numbers, and email addresses on ‘Contact Us’ pages. Don’t hide or replace these elements with automated tools such as ‘Contact Us’ forms or chat.</p>
+        </section>
+
+        <section class="authors-and-topics">
+          <div class="byline-wrapper">
+            
+              <div class="authors inline-nav">
+                <p><strong>By </strong><span id="gaDataAuthors" class="ga-data-layer" aria-hidden="true">Anna Kaley</span>
+</p>
+                
+                <ul class="item-list">
+                  
+                    <li><a href="/articles/author/anna-kaley/">Anna Kaley</a></li>
+                  
+                </ul>
+                
+                
+                  <div class="publication-date">
+                    <p>
+                      on 
+                      
+                        <span id="gaDataPubDate" class="ga-data-layer" aria-hidden="true">2019-08-18</span>
+
+                        August 18, 2019
+                      
+                    </p>
+                  </div>
+                
+              </div>
+            
+
+            
+              <div class="topics inline-nav">
+                <p><strong>Topics:</strong></p>
+                
+                <span id="gaDataAllTopics" class="ga-data-layer" aria-hidden="true">Corporate Websites,B2B Websites,customer service,web trends,omnichannel,trust and credibility</span>
+
+                <ul class="no-bullet inline item-list">
+                  
+                    <li><span id="gaDataTopic" class="ga-data-layer" aria-hidden="true">Corporate Websites</span>
+<a href="/topic/corporate-websites/">Corporate Websites</a>,&nbsp;</li>
+                  
+                    <li><a href="/topic/b2b-websites/">B2B Websites</a></li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+          <div class="small desktop only">
+            <div class="widget share-widget compact with-comments" id="shareWidgetBodyTop">
+              <div class="share-buttons" aria-hidden="true">
+                <p>Share this article:</p>
+                <ul class="share-icons">
+                  <li><a href="https://twitter.com/intent/tweet?url=http://www.nngroup.com/articles/contact-us-pages/&amp;text=‘Contact Us’ Page Guidelines&amp;via=nngroup" data-share-type="Twitter"><span class="icon fab fa-twitter"></span></a></li>
+                  <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.nngroup.com/articles/contact-us-pages/&amp;title=‘Contact Us’ Page Guidelines&amp;source=Nielsen%20Norman%20Group" data-share-type="LinkedIn"><span class="icon fab fa-linkedin-in"></span></a></li>
+                  <li><a href="mailto:?subject=NN/g Article: ‘Contact Us’ Page Guidelines&amp;body=https://www.nngroup.com/articles/contact-us-pages/" data-share-type="Email"><span class="icon fal fa-envelope"></span></a></li>
+                </ul>
+              </div>
+              
+                <div class="comments-widget">
+                  <p class="content"><a href="#comments"><span class="icon fal fa-comments"></span><span class="gc-counter comment-count" data-url="https://www.nngroup.com/articles/contact-us-pages/"></span> Comments</a></p>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+
+        <section id="articleBody" class="article-body"><p>To update our <a href="https://www.nngroup.com/reports/about-us-presenting-company-information/"><em>About Us</em> report</a>, we recently conducted a <a href="https://www.nngroup.com/articles/quant-vs-qual/">qualitative usability study</a> with 20 business professionals. During this research, we observed participants’ behavior as they tried to complete key tasks related to <a href="https://www.nngroup.com/articles/about-us-information-on-websites/"><em>About Us</em></a> content on 40 different corporate websites. </p>
+
+<p>Additionally, we asked each user to attempt a series of activities related to the <em>Contact Us</em> information on those sites. Our goal was to understand how people in business–to–business contexts find and interact with <em>Contact Us</em> pages, what information and methods they expect to see, and their motivations behind choosing a particular contact channel. In this article, we’ll share 12 guidelines for designing your <em>Contact Us</em> page, as gleaned from this research. </p>
+
+<h2>What to Include on the <em>Contact Us</em> Page</h2>
+
+<p><strong>1. The <em>Contact Us</em> link should lead to complete contact details and communication options. </strong></p>
+
+<p>Your site should include a dedicated contact page with at least a phone number and email address, not just a contact form or physical address. A user looking for corporate contact information on USA.Yamaha.com grew frustrated that there was no email address or phone number displayed. He said,</p>
+
+<blockquote>
+<p> “This is where I would go hoping to find that [contact] information. It is misleading to have this page called Contact Us and then the content on the page is just more paragraphs. They don’t seem to be offering other methods of contact including social media, email, or a phone number. If I go to Contact Us, I’m already expecting the variety of methods of contact.”</p>
+</blockquote>
+
+<figure class="caption"><img alt="Yamaha's contact us page lacks contact channels." height="540" src="https://media.nngroup.com/media/editor/2019/08/08/yamahacontactuspage.jpg" width="692"/>
+<figcaption><em>Yamaha’s corporate website disappointed users. Rather than offering specific information on the </em>Contact Us<em> page, the site displayed poorly formatted copy.</em></figcaption>
+</figure>
+
+<p>At a minimum, include the following information on your <em>Contact Us</em> page:</p>
+
+<ul>
+	<li><strong>Phone numbers</strong> (which connect to people who are properly trained to handle calls):
+
+	<ul>
+		<li>Main contact phone number </li>
+		<li><a href="https://www.nngroup.com/articles/customer-service-model/">Customer-service number(s)</a>, if applicable</li>
+		<li><a href="https://www.nngroup.com/articles/press-area-usability/">Press-contact</a> number, if applicable </li>
+		<li><a href="https://www.nngroup.com/articles/investor-relations-ir/">Investor-relations</a> contact number, if applicable</li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><b>Other methods of contact:</b>
+
+	<ul>
+		<li>Main corporate address</li>
+		<li>Local addresses, if applicable<b>​</b></li>
+		<li>Email address(es)</li>
+		<li>Chat, if applicable</li>
+		<li>Social media channels, if applicable</li>
+		<li>Fax numbers, if applicable</li>
+	</ul>
+	</li>
+</ul>
+
+<p>Beyond providing appropriate contact channels, here are a few additional <strong>best practices for displaying contact information:</strong></p>
+
+<ul>
+	<li>Provide the phone number and email address for a primary contact first, then list phone numbers and email addresses by department (sales, accounts, support, geographic headquarters, etc.). Just like in <a href="https://www.nngroup.com/articles/customer-service-omnichannel-ux/">business–to–customer journeys</a>, some business–to–business users prefer the phone, while others prefer email. This preference depends on the individual and the nature of the situation.</li>
+	<li>Show contact information for local branches or <a href="https://www.nngroup.com/articles/helping-users-find-physical-locations/">physical locations</a>. Link address(es) so they open a map application where users can get directions.</li>
+	<li>Include hours of operation and time zones.</li>
+	<li>Offer contact information in other languages if you serve an <a href="https://www.nngroup.com/articles/international-b2b/">international, or multilingual audience</a>.</li>
+	<li>Tell users whether they will interact with a real person or a <a href="https://www.nngroup.com/articles/chat-ux/">chatbot</a>.</li>
+	<li>State when associates are available to take calls, exact or average wait times, or approximations for the time it will take to receive an email response back.</li>
+</ul>
+
+<p>One user on UBreakIFix.com said she valued having contact information for local stores. She said, “I would try by phone call first, probably a local store. If I can’t find it myself, I’ll call corporate.” The user appreciated that the site included both a clear link to locations in the navigation and the corporate phone number.</p>
+
+<figure class="caption"><img alt="UbreakiFix offers contact information for local stores. " height="421" src="https://media.nngroup.com/media/editor/2019/08/08/ubreakifixstorelocator.jpg" width="692"/>
+<figcaption><em>UBreakIFix.com provided users with local information including the addresses and phone numbers. This content made it easy for people to contact a nearby store to get help.</em></figcaption>
+</figure>
+
+<p>While searching for contact information on the Small Business Administration’s website, one user was impressed by the fact that the organization offered full contact information in both English and Spanish. He said, “It’s nice that there’s Spanish contacts. You don’t always see that; I can call a phone number. I don’t always see that either, it’s very nice.”</p>
+
+<figure class="caption"><img alt="SBA offers contact information in English and Spanish. " height="606" src="https://media.nngroup.com/media/editor/2019/08/08/sbacontactpage.jpg" width="692"/>
+<figcaption><em>The </em>Contact SBA<em> section on the Small Business Administration’s website provided all the right forms of contact, including mailing address, phone numbers, email addresses, and local-district offices. There was also an option to get contact information in Spanish, which showed extra consideration for users.</em></figcaption>
+</figure>
+
+<h2>Display <em>Contact Us</em> Information Where Users Expect It</h2>
+
+<p><strong>2. Include a noticeable link to <em>Contact Us</em> in your <a href="https://www.nngroup.com/videos/number-items-navigation-menu/">main navigation</a> or <a href="https://www.nngroup.com/articles/utility-navigation/">utility navigation</a> and in the footer. </strong></p>
+
+<p>Our <a href="https://www.nngroup.com/videos/how-setup-desktop-usability-test/">usability testing</a> and <a href="https://www.nngroup.com/topic/eyetracking/">eyetracking research show</a> that, if you ask users to find the <em>Contact Us</em> page on a website, they will look in the top right corner of the page or down in the <a href="https://www.nngroup.com/articles/footers/">footer</a>. Companies that hide or don’t provide prominent links to <em>Contact Us</em> information are seen as evasive and unreliable.</p>
+
+<p>This guideline may seem obvious to seasoned UX practitioners, but surprisingly many sites still fail to include a <em>Contact Us</em> link in at least one of these key areas. In some cases, organizations will label their <em>Contact Us</em> page as <em>Resources</em> or <em>Help Center</em>, but we advise against this practice. When we asked users to reach the company to get an answer to a question, <strong>they looked for the label, <em>Contact Us</em>.</strong></p>
+
+<p>Though many of the websites we tested provided clear links to contact information, a few made it particularly difficult to get in touch. For example, one user on the U.S. General Services Administration’s website struggled to find contact information, as it was hidden in a <a href="https://www.nngroup.com/articles/drop-down-menus/">dropdown menu</a>, underneath the <em>About Us</em> link in the <a href="https://www.nngroup.com/articles/top-10-ia-mistakes/">main navigation</a>. The user finally found it, but wished it had been easier. She said, “I would have liked to have <em>Contact Us</em> up in the top, rather than going to <em>About Us</em>. Once I scrolled down to the footer, I saw it, but it could have been easier to find.”</p>
+
+<p>Don’t hide <em>Contact Us</em> links behind your <em>About Us</em> label in the navigation; instead prominently feature contact information in the header and footer of your website. (It can be appropriate to include contact info on an <em>About</em> page, as long as it’s a supplement to the main <em>Contact Us</em> link.)</p>
+
+<figure class="caption"><img alt="GSA included a link to contact us in their about us dropdown which was difficult to find. " height="338" src="https://media.nngroup.com/media/editor/2019/08/08/gsaaboutusdropdown.png" width="692"/>
+<figcaption><em>One user was frustrated by the fact that the U.S. General Services Administration did not have a </em>Contact Us<em> link in its main navigation.</em></figcaption>
+</figure>
+
+<figure class="caption"><img alt="GSA included a link to a contact us page in their footer. " height="444" src="https://media.nngroup.com/media/editor/2019/08/08/gsacustomerservicesection.jpg" width="692"/>
+<figcaption><em>The user eventually found a </em>Contact Us<em> link in the page footer, which is one of the key areas where we recommend placing it.</em></figcaption>
+</figure>
+
+<h2>Never Hide or Remove Phone Numbers from the <em>Contact Us</em> Page</h2>
+
+<p><strong>3. Clearly display contact phone numbers on your site. Don’t hide or remove phone numbers.</strong></p>
+
+<p>Displaying a phone number shows that your organization cares about its users and wants to be available. Not displaying phone numbers implies that the organization doesn’t want to be bothered. By giving people ways to directly reach your organization, you ease fears, appear reliable, and <a href="https://www.nngroup.com/articles/communicating-trustworthiness/">build trust</a>.</p>
+
+<p>However, companies often want people to self-serve or refer to the website for answers, instead of contacting the organization directly. Cost per call, volumes of calls, and response times are all metrics which often get measured and scrutinized to the point where stakeholders decide to remove the <em>Contact Us</em> phone numbers altogether in an effort to keep costs low. (A better approach is to invest in basic website <a href="https://www.nngroup.com/courses/information-architecture/">information architecture</a> and <a href="https://www.nngroup.com/courses/writing/">content usability</a> so that answers to customers’ main questions are easy to find and easy to understand.)</p>
+
+<p>Though hiding phone numbers may seem like a cost-savings measure, doing so will cause much damage to a company’s reputation. The majority of users in our study said they prefer talking to a real person on the phone to get questions answered, rather than emailing, filling out a form, or chatting. When matters were not time-sensitive or when users couldn’t pick up the phone, they emailed or used live chat. One person said,</p>
+
+<blockquote>
+<p>“There are companies that don’t even give you a phone number anymore. I don’t like it at all. What if my message gets lost? It makes them seem suspicious to me, I want to talk to someone on the phone.”</p>
+</blockquote>
+
+<p>Users on GiftTree.com and OneCall.com liked that the organization’s 800-numbers and email addresses were easily accessible. Another user said, “It’s good that the 800-number is on top, with a link to <em>Contact</em>. There are a lot of places where you can get a hold of them if you want to — which is good.”</p>
+
+<figure class="caption"><img alt="OneCall includes a phone number and link to email in their header. " height="485" src="https://media.nngroup.com/media/editor/2019/08/08/onecallcontactinfo.jpg" width="692"/>
+<figcaption><em>The prominent phone number and </em>Contact Us<em> link on OneCall’s site made the organization seem open and willing to be contacted, thereby boosting trust.</em></figcaption>
+</figure>
+
+<figure class="caption"><img alt="OneCall also included contact us information in their footer. " height="257" src="https://media.nngroup.com/media/editor/2019/08/08/onecallfooter.jpg" width="692"/>
+<figcaption><em>OneCall.com also placed detailed contact information in the footer. </em></figcaption>
+</figure>
+
+<figure class="caption"><img alt="GiftTree included their contact information in the header. " height="412" src="https://media.nngroup.com/media/editor/2019/08/08/gifttreecontactinfo.jpg" width="692"/>
+<figcaption><em>GiftTree also featured a prominent phone number and link to live chat throughout its entire site.</em></figcaption>
+</figure>
+
+<p><strong>4. For sites with many contact phone numbers, organize them into clearly labeled groups to help users find the right phone number.</strong></p>
+
+<p>Large organizations tend to have hundreds of contact phone numbers, resulting in a swath of <a href="https://www.nngroup.com/videos/choice-overload-harms-users/">complex options</a>. If presented as an unorganized list, phone numbers will be completely meaningless to people and they won’t know which one to choose. Organizing contact numbers based on your company’s internal structure usually backfires because outsiders won’t understand your hierarchy or organization chart. Additionally, sites with complex contact page elements — such as extensive dropdowns and department categories — are overwhelming.</p>
+
+<p>If you have a complex company structure, <strong>provide a main phone number on the <em>Contact Us</em> page</strong> to alleviate any confusion people have about how to contact you. Multiple contact listings should be grouped and labeled clearly so that users know exactly which to choose. For example, Chevron’s <em>Contact Us</em> page did a nice job of displaying a main phone number, along with a link to specific phone numbers for various departments.</p>
+
+<figure class="caption"><img alt="Chevron offers many different contact phone numbers for different departments. " height="901" src="https://media.nngroup.com/media/editor/2019/08/08/chevroncontactus.jpg" width="692"/>
+<figcaption><em>Chevron.com displayed a helpful </em>Contact Us<em> page which offered many specific contact methods for users, including investors and the press.</em></figcaption>
+</figure>
+
+<h2>Display Your Company’s Address on <em>Contact Us</em> Pages</h2>
+
+<p><strong>5. Always include your headquarters address in your contact information, including the state/province and ZIP. </strong></p>
+
+<p>Sharing your physical address is important because users often rely on the <em>Contact Us</em> section to find out where a company is headquartered. Displaying your address also increases the probability that users will find your company’s website when searching for local results via search engines. Users often enter a combined query that includes keywords for both the desired product or service and their location. For example, somebody looking for a dentist in Salem, New Hampshire is likely to use a keyword like <em>dentist Salem</em> or <em>dentist Salem, NH</em>. Your site won’t show up in search-results pages unless the search-engine robots can determine that your dentist office is in Salem, NH.</p>
+
+<p><strong>6. If you serve multiple countries or an international audience, provide contact information for each office location abroad. </strong></p>
+
+<p>To show consideration for your international audiences and users who need information about an office abroad, provide contact information for all of your global locations, not just your headquarters. People may need to find the address of an office location in another country or they may need to call an international office directly, rather than calling your headquarters. Include the physical address, an email address, and an international phone number (with the country code), for your office locations abroad.</p>
+
+<p>For example, Chevron included a gateway page on its site, with links to contact information for all of its international offices. Users selected an international office and were taken to a specific page detailing how to get in contact with someone there.</p>
+
+<figure class="caption"><img alt="Chevron offers contact information for all of its offices worldwide. " height="623" src="https://media.nngroup.com/media/editor/2019/08/08/chevronworldwidecontactpage.png" width="692"/>
+<figcaption><em>Chevron included a gateway page on its website that housed links to detailed contact information for each of its global business locations.</em></figcaption>
+</figure>
+
+<figure class="caption"><img alt="Chevron Brazil includes all location-specific contact information. " height="1293" src="https://media.nngroup.com/media/editor/2019/08/08/chevronbrasilcontactus.jpg" width="692"/>
+<figcaption><em>Chevron.com: Clicking on an international location took users to a detailed </em>Contact Us<em> page which featured information about that specific office.</em></figcaption>
+</figure>
+
+<h2>Don’t Block or Slow Users Down from Getting in Contact</h2>
+
+<p><strong>7. Offer a contact form only in addition to telephone numbers, not as a replacement. </strong></p>
+
+<p>People have concerns about committing to contact <a href="https://www.nngroup.com/articles/web-form-design/">forms</a> and see them as barriers to productivity. Users are also skeptical of forms since they’re often used to capture email addresses for marketing purposes. When users filled out contact forms, they felt like they were relinquishing control of the interaction to the company rather than retaining it themselves. They wondered when their inquiry would be addressed and whether it will ever be answered at all. For example, Slack.com’s users were annoyed that they had to fill out a form to ask a simple question.</p>
+
+<blockquote>
+<p>“I don’t like that you have to fill out this form, considering all you want to do is talk to them. I hate when you go to a link and have to provide a bunch of information to get in contact. I am hesitant to put my email into a website — that is the last thing that I would do.”</p>
+</blockquote>
+
+<figure class="caption"><img alt="Slack only uses a form for users to get in contact. " height="421" src="https://media.nngroup.com/media/editor/2019/08/08/slackcontactus.jpg" width="692"/>
+<figcaption><em>Users were disappointed that the only contact method offered on Slack’s website was a form.</em></figcaption>
+</figure>
+
+<p>Melissa and Doug, on the other hand, offered a myriad of helpful contact options, including a form. It also had specific email addresses for various business units and presented users with all its international phone numbers right on the <em>Contact Us</em> page. One user who was evaluating a position with the company said, “It’s nice that they give you many different phone numbers, live chat, email options through this form — however you like to communicate, you can do it.”</p>
+
+<figure class="caption"><img alt="Melissa and Doug offered all of the right contact mechanisms. " height="388" src="https://media.nngroup.com/media/editor/2019/08/08/melissaanddougcontactus.jpg" width="692"/>
+<figcaption><em>Melissa and Doug provided many different contact options for retail partners, consumers, and job seekers.</em></figcaption>
+</figure>
+
+<p><strong>8. If you include a form on your <em>Contact Us</em> page, limit it to 3–5 fields and ask only for information that’s needed to respond back.</strong></p>
+
+<p>Ask people to provide their name, preferred method of contact, and a brief description of the question or issue. If your form requires more fields for specific reasons, know that users may not complete the form, which could result in lost leads, sales, or talent.</p>
+
+<p>The contact form on the American Refugee Committee’s website had only a few fields. While it asked for some personal information (i.e., name and email), the fields were relevant and not too restrictive, as people could choose to enter their full name or not.</p>
+
+<figure class="caption"><img alt="American Refugee Committee used a contact form with only a few fields. " height="460" src="https://media.nngroup.com/media/editor/2019/08/08/americanrefugeecommitteecontactus.jpg" width="692"/>
+<figcaption><em>The </em>Contact Us<em> form on the American Refugee Committee’s website offered an appropriate number of form fields. To improve it further, it should mark <a href="https://www.nngroup.com/articles/required-fields/">required fields.</a></em></figcaption>
+</figure>
+
+<p><strong>9. Don’t force people to create an account to contact your company. </strong></p>
+
+<p>People don’t want to spend time creating an account with your company if all they need is an answer to a simple question. In addition, users worry about being inundated with spam and email, so they may avoid creating an account and contacting you entirely. For these reasons, don’t require users to create an account to get in contact with you.</p>
+
+<p>While learning about Adobe’s offerings, a study participant tried to contact the organization. She grew irritated when she had to <a href="https://www.nngroup.com/articles/login-walls/">first sign in to an account </a>to contact the organization. She said, “I wish when I hit <em>Contact</em>, that I could just get an email address or a phone number, instead of having to sign in. I’d have to create an account.”</p>
+
+<figure class="caption"><img alt="Adobe forced users to create an account to get in contact. " height="391" src="https://media.nngroup.com/media/editor/2019/08/09/adobecontactus.jpg" width="692"/>
+<figcaption><em>Users did not like the fact that Adobe.com forced them to create an account to contact the organization.</em></figcaption>
+</figure>
+
+<h2>If Available and Reliable, Include Chat and Social Media Channels on <em>Contact Us</em> Pages</h2>
+
+<p><strong>10. It’s good to have online chat as a contact option, but it should not be the only contact method available. </strong></p>
+
+<p>Thoroughly test chat with your users to understand if it meets their expectations and when they prefer using chat over other contact channels. <a href="https://www.nngroup.com/articles/chat-ux/">Chat should be available</a>, but not popping up at the wrong times or popping up without the user initiating the interaction. Our research participants had mixed feelings about using online chat — particularly because of bad past experiences with poorly implemented chatbots.</p>
+
+<p>However, some people spoke favorably about chat when the site clearly indicated whether the chat agent was a real person or a bot. Users who preferred chat over picking up the phone mentioned not having to sit on hold as the main reason for their preference. A GoToMeeting user exclaimed, “Love the chat option; they know what they’re doing, without having to sit on hold forever. I like if a copy of the chat can be emailed to me, or I’ll screenshot it on my phone. I prefer the chat.”</p>
+
+<p>Another user on the General Services Administration’s website said, “It’s good that they have the phone number and live chat. Since this is a government website, I would feel better about chat because if you call, they will take you to 500 different people and keep transferring you. I don’t have time to wait for an email back.”</p>
+
+<p><strong>11. Display social media channels as contact options only if these channels are staffed with properly trained professionals who can respond to inquiries in a timely fashion. </strong></p>
+
+<p>Many people in our study mentioned using a company’s social media channels to ask questions or resolve issues. For example, one user spoke highly of an internet service provider that responded immediately to his question on Twitter. He described getting very slow connection speeds, so he mentioned the company in a Tweet. Within minutes, he got a productive response. He said, “That’s one of the first times I’ve used Twitter and social media to reach out to a company, but that’s where things are going and it worked.”</p>
+
+<p>UBreakIFix.com offered options for contacting the company via social media channels. These options were presented on its <em>Contact Us</em> page and provided direct links to each channel. It’s important to mention, however, that not all users will be comfortable contacting your company via social media, nor do all users have accounts on those channels. For these reasons, it’s still important to include other methods of contact, such as a phone number, email address, and chat.</p>
+
+<figure class="caption"><img alt="UBreakiFix offered users social media channels to get in contact. " height="433" src="https://media.nngroup.com/media/editor/2019/08/09/ubreakifixcontactus.jpg" width="692"/>
+<figcaption><em>UBreakIFix.com offered options for contacting the company via social media channels.</em></figcaption>
+</figure>
+
+<h2>Tell Users When You’re Available and When to Expect a Reply</h2>
+
+<p><strong>12. For each contact channel, communicate availability, wait times, and response windows on your <em>Contact Us</em> page.</strong></p>
+
+<p>Tell people when certain channels are available, when to expect a response, and how long they will wait if they call, chat, or email. Most users expect an email or response to a form submission within 24 hours, and usually don’t want to wait longer than a few minutes on the phone or chat. When displaying availability timeframes, include specific times and time zones, and make sure you live up to the response timeframes stated. For example, GSA stated that it would respond via email within 24-hours on its <em>Contact Us</em> page and provided hours of operation for its online chat. To improve even further, it should include hours of operation near the phone number as well. </p>
+
+<figure class="caption"><img alt="GSA set expectations for when users could expect an email response. " height="421" src="https://media.nngroup.com/media/editor/2019/08/09/gsacontactus.jpg" width="692"/>
+<figcaption><em>The U.S. General Services Administration offered a variety of contact methods and set expectations for when email inquiries are answered and when </em>Chat Live <em>is available</em></figcaption>
+</figure>
+
+<h2>Conclusion</h2>
+
+<p>People decide how to get in contact with a company, based on a variety of factors. Their scenario, the amount of time they have, a channel’s perceived reliability, their current context, and comfort level with certain methods of contact all influence the choice. Never hide, remove, or replace contact information in favor of automated methods such as online chat or <em>Contact Us</em> forms. Always include the company’s addresses, phone numbers, and email addresses on <em>Contact Us</em> pages, as users still expect to find traditional methods of getting in contact.</p>
+
+<p>Even more guidelines for the design of effective <em>Contact Us</em> pages can be found in our full report on <a href="https://www.nngroup.com/reports/about-us-presenting-company-information/">Presenting Company Information on Corporate Websites and in About Us Sections.</a></p></section>
+
+        
+
+        
+
+        <section class="share">
+          <div class="share-widget" id="shareWidgetBodyBottom">
+            <ul class="no-bullet inline share-icons mobile only">
+              <li>Share:&nbsp;</li>
+              <li><a href="https://twitter.com/intent/tweet?url=http://www.nngroup.com/articles/contact-us-pages/&amp;text=‘Contact Us’ Page Guidelines&amp;via=nngroup" data-share-type="Twitter"><span class="icon fab fa-twitter"></span></a></li>
+              <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.nngroup.com/articles/contact-us-pages/&amp;title=‘Contact Us’ Page Guidelines&amp;source=Nielsen%20Norman%20Group" data-share-type="LinkedIn"><span class="icon fab fa-linkedin-in"></span></a></li>
+              <li><a href="mailto:?subject=NN/g Article: ‘Contact Us’ Page Guidelines&amp;body=https://www.nngroup.com/articles/contact-us-pages/" data-share-type="Email"><span class="icon fal fa-envelope"></span></a></li>
+            </ul>
+            <ul class="inline no-bullet share-links small large desktop only">
+              <li>Share this article: </li>
+              <li><a href="https://twitter.com/intent/tweet?url=http://www.nngroup.com/articles/contact-us-pages/&amp;text=‘Contact Us’ Page Guidelines&amp;via=nngroup" data-share-type="Twitter">Twitter</a> |</li>
+              <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.nngroup.com/articles/contact-us-pages/&amp;title=‘Contact Us’ Page Guidelines&amp;source=Nielsen%20Norman%20Group" data-share-type="LinkedIn">LinkedIn</a> |</li>
+              <li><a href="mailto:?subject=NN/g Article: ‘Contact Us’ Page Guidelines&amp;body=https://www.nngroup.com/articles/contact-us-pages/" data-share-type="Email">Email</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      
+      
+      <div class="publication-sidebar">
+        <div class="share mb-2" aria-hidden="true">
+          <div class="share-widget"  id="shareWidgetBodySidebar">
+            <ul class="no-bullet share-links">
+              <li><strong>Share this article:</strong></li>
+              <li><a href="https://twitter.com/intent/tweet?url=http://www.nngroup.com/articles/contact-us-pages/&amp;text=‘Contact Us’ Page Guidelines&amp;via=nngroup" data-share-type="Twitter"><span class="icon fab fa-twitter"></span>Twitter</a></li>
+              <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.nngroup.com/articles/contact-us-pages/&amp;title=‘Contact Us’ Page Guidelines&amp;source=Nielsen%20Norman%20Group" data-share-type="LinkedIn"><span class="icon fab fa-linkedin-in"></span>LinkedIn</a></li>
+              <li><a href="mailto:?subject=NN/g Article: ‘Contact Us’ Page Guidelines&amp;body=https://www.nngroup.com/articles/contact-us-pages/" data-share-type="Email"><span class="icon fal fa-envelope"></span>Email</a></li>
+            </ul>
+          </div>
+        </div>
+
+        
+          <div class="widget">
+            <p><strong>Join the discussion:</strong></p>
+            <p><a href="#comments"><span class="icon fal fa-comments"></span><span class="gc-counter comment-count" data-url="https://www.nngroup.com/articles/contact-us-pages/?lm=corporate-social-responsibility&amp;pt=article"></span> Comments</a></p>
+          </div>
+        
+
+        
+          <div class="about-authors">
+            <p><strong>About the Author</strong></p>
+            
+              <p><a href="/people/anna-kaley/">Anna Kaley</a> is a User Experience Specialist with Nielsen Norman Group. Prior to joining NN/g, Anna worked for more than 10 years in user experience architecture and digital strategy. She conducted complex user research, service, and experience design for healthcare, agriculture, finance, tourism, retail, and engineering clients.</p>
+            
+          </div>
+        
+
+        
+        <div class="subscribe">
+          <p><strong>Subscribe to our Alertbox E-Mail Newsletter:</strong></p>
+          <p>The latest articles about interface usability, website design, and UX research from the Nielsen Norman Group.</p>
+          <p><a href="/articles/subscribe/" class="secondary button">Subscribe</a></p>
+        </div>
+        
+
+        
+          <div class="related-content">
+            <h2>Learn More</h2>
+
+            
+              <div class="related-articles">
+                <h3>Articles</h3>
+                <ul class="no-bullet">
+                  
+                    <li><a href="/articles/about-us-information-on-websites/?lm=contact-us-pages&amp;pt=article">&quot;About Us&quot; Information on Websites</a></li>
+                  
+                    <li><a href="/articles/corporate-social-responsibility/?lm=contact-us-pages&amp;pt=article">Social Impact and Sustainability on Corporate Websites</a></li>
+                  
+                    <li><a href="/articles/information-seeking-behavior-changes/?lm=contact-us-pages&amp;pt=article">How Information-Seeking Behavior Has Changed in 22 Years</a></li>
+                  
+                    <li><a href="/articles/popups/?lm=contact-us-pages&amp;pt=article">Popups: 10 Problematic Trends and Alternatives</a></li>
+                  
+                    <li><a href="/articles/ecommerce-expectations/?lm=contact-us-pages&amp;pt=article">The New Ecommerce User Experience: Changes in Users’ Expectations</a></li>
+                  
+                </ul>
+              </div>
+            
+
+            
+              <div>
+                <h3>UX Conference Training Courses</h3>
+                <ul class="no-bullet">
+                  
+                    <li><a href="/courses/service-design/?lm=contact-us-pages&amp;pt=article">Service Blueprinting</a></li>
+                  
+                    <li><a href="/courses/cross-channel-user-experience/?lm=contact-us-pages&amp;pt=article">Omnichannel Journeys and Customer Experience</a></li>
+                  
+                    <li><a href="/courses/scaling-responsive-design/?lm=contact-us-pages&amp;pt=article">UX for Responsive Sites</a></li>
+                  
+                    <li><a href="/courses/emerging-patterns-interface-design/?lm=contact-us-pages&amp;pt=article">Emerging Patterns in Interface Design</a></li>
+                  
+                </ul>
+              </div>
+            
+
+            
+              <div>
+                <h3>Research Reports</h3>
+                <ul class="no-bullet">
+                  
+                    <li><a href="/reports/b2b-websites-usability/?lm=contact-us-pages&amp;pt=article">B2B Website Usability for Converting Users into Leads and Customers</a></li>
+                  
+                    <li><a href="/reports/strategic-design-faqs/?lm=contact-us-pages&amp;pt=article">Strategic Design for Frequently Asked Questions</a></li>
+                  
+                    <li><a href="/reports/investor-relations-ir-corporate-websites/?lm=contact-us-pages&amp;pt=article">Investor Relations (IR) on Corporate Websites</a></li>
+                  
+                    <li><a href="/reports/pr-websites/?lm=contact-us-pages&amp;pt=article">PR on Websites</a></li>
+                  
+                    <li><a href="/reports/about-us-presenting-company-information/?lm=contact-us-pages&amp;pt=article">Presenting Company Information on Corporate Websites and in About Us Sections</a></li>
+                  
+                </ul>
+              </div>
+            
+
+            
+              <div>
+                <h3>Online Seminars</h3>
+                <ul class="no-bullet">
+                  
+                    <li><a href="/online-seminars/accessibility-lawsuits-web-design/?lm=contact-us-pages&amp;pt=article">How Accessibility Lawsuits are Driving Better Web Design</a></li>
+                  
+                    <li><a href="/online-seminars/top-intranet-design-trends-2019/?lm=contact-us-pages&amp;pt=article">Top Intranet Design Trends of 2019</a></li>
+                  
+                    <li><a href="/online-seminars/fundamental-flaw-flat-design/?lm=contact-us-pages&amp;pt=article">The Fundamental Flaw in Flat Design</a></li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        
+      </div>
+      
+
+    </div>
+  </article>
+
+  <section class="learn-more">
+    <h2>Learn More</h2>
+    <p><a href="/articles/subscribe/">Subscribe to the weekly newsletter</a> to get notified about future articles.</p>
+  </section>
+
+  
+  
+  <div class="small desktop only">
+    <section class="two column grid related-content">
+      
+        <div>
+          
+            <div class="related-articles">
+              <h3>Articles</h3>
+              <ul class="no-bullet">
+                
+                  <li><a href="/articles/about-us-information-on-websites/?lm=contact-us-pages&amp;pt=article">&quot;About Us&quot; Information on Websites</a></li>
+                
+                  <li><a href="/articles/corporate-social-responsibility/?lm=contact-us-pages&amp;pt=article">Social Impact and Sustainability on Corporate Websites</a></li>
+                
+                  <li><a href="/articles/information-seeking-behavior-changes/?lm=contact-us-pages&amp;pt=article">How Information-Seeking Behavior Has Changed in 22 Years</a></li>
+                
+                  <li><a href="/articles/popups/?lm=contact-us-pages&amp;pt=article">Popups: 10 Problematic Trends and Alternatives</a></li>
+                
+                  <li><a href="/articles/ecommerce-expectations/?lm=contact-us-pages&amp;pt=article">The New Ecommerce User Experience: Changes in Users’ Expectations</a></li>
+                
+              </ul>
+            </div>
+          
+          
+            <div>
+              <h3>Research Reports</h3>
+              <ul class="no-bullet">
+                
+                  <li><a href="/reports/b2b-websites-usability/?lm=contact-us-pages&amp;pt=article">B2B Website Usability for Converting Users into Leads and Customers</a></li>
+                
+                  <li><a href="/reports/strategic-design-faqs/?lm=contact-us-pages&amp;pt=article">Strategic Design for Frequently Asked Questions</a></li>
+                
+                  <li><a href="/reports/investor-relations-ir-corporate-websites/?lm=contact-us-pages&amp;pt=article">Investor Relations (IR) on Corporate Websites</a></li>
+                
+                  <li><a href="/reports/pr-websites/?lm=contact-us-pages&amp;pt=article">PR on Websites</a></li>
+                
+                  <li><a href="/reports/about-us-presenting-company-information/?lm=contact-us-pages&amp;pt=article">Presenting Company Information on Corporate Websites and in About Us Sections</a></li>
+                
+              </ul>
+            </div>
+          
+        </div>
+      
+      
+        <div>
+          
+            <div>
+              <h3>UX Conference Training Courses</h3>
+              <ul class="no-bullet">
+                
+                  <li><a href="/courses/service-design/?lm=contact-us-pages&amp;pt=article">Service Blueprinting</a></li>
+                
+                  <li><a href="/courses/cross-channel-user-experience/?lm=contact-us-pages&amp;pt=article">Omnichannel Journeys and Customer Experience</a></li>
+                
+                  <li><a href="/courses/scaling-responsive-design/?lm=contact-us-pages&amp;pt=article">UX for Responsive Sites</a></li>
+                
+                  <li><a href="/courses/emerging-patterns-interface-design/?lm=contact-us-pages&amp;pt=article">Emerging Patterns in Interface Design</a></li>
+                
+              </ul>
+            </div>
+          
+          
+            <div>
+              <h3>Online Seminars</h3>
+              <ul class="no-bullet">
+                
+                  <li><a href="/online-seminars/accessibility-lawsuits-web-design/?lm=contact-us-pages&amp;pt=article">How Accessibility Lawsuits are Driving Better Web Design</a></li>
+                
+                  <li><a href="/online-seminars/top-intranet-design-trends-2019/?lm=contact-us-pages&amp;pt=article">Top Intranet Design Trends of 2019</a></li>
+                
+                  <li><a href="/online-seminars/fundamental-flaw-flat-design/?lm=contact-us-pages&amp;pt=article">The Fundamental Flaw in Flat Design</a></li>
+                
+              </ul>
+            </div>
+          
+        </div>
+      
+    </section>
+  </div>
+  
+
+  
+  
+  <div class="mobile only">
+    <section class="two column grid related-content">
+      
+        <div class="related-articles">
+          <h3>Articles</h3>
+          <ul class="no-bullet">
+            
+              <li><a href="/articles/about-us-information-on-websites/?lm=contact-us-pages&amp;pt=article">&quot;About Us&quot; Information on Websites</a></li>
+            
+              <li><a href="/articles/corporate-social-responsibility/?lm=contact-us-pages&amp;pt=article">Social Impact and Sustainability on Corporate Websites</a></li>
+            
+              <li><a href="/articles/information-seeking-behavior-changes/?lm=contact-us-pages&amp;pt=article">How Information-Seeking Behavior Has Changed in 22 Years</a></li>
+            
+              <li><a href="/articles/popups/?lm=contact-us-pages&amp;pt=article">Popups: 10 Problematic Trends and Alternatives</a></li>
+            
+              <li><a href="/articles/ecommerce-expectations/?lm=contact-us-pages&amp;pt=article">The New Ecommerce User Experience: Changes in Users’ Expectations</a></li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div>
+          <h3>UX Conference Training Courses</h3>
+          <ul class="no-bullet">
+            
+              <li><a href="/courses/service-design/?lm=contact-us-pages&amp;pt=article">Service Blueprinting</a></li>
+            
+              <li><a href="/courses/cross-channel-user-experience/?lm=contact-us-pages&amp;pt=article">Omnichannel Journeys and Customer Experience</a></li>
+            
+              <li><a href="/courses/scaling-responsive-design/?lm=contact-us-pages&amp;pt=article">UX for Responsive Sites</a></li>
+            
+              <li><a href="/courses/emerging-patterns-interface-design/?lm=contact-us-pages&amp;pt=article">Emerging Patterns in Interface Design</a></li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div>
+          <h3>Research Reports</h3>
+          <ul class="no-bullet">
+            
+              <li><a href="/reports/b2b-websites-usability/?lm=contact-us-pages&amp;pt=article">B2B Website Usability for Converting Users into Leads and Customers</a></li>
+            
+              <li><a href="/reports/strategic-design-faqs/?lm=contact-us-pages&amp;pt=article">Strategic Design for Frequently Asked Questions</a></li>
+            
+              <li><a href="/reports/investor-relations-ir-corporate-websites/?lm=contact-us-pages&amp;pt=article">Investor Relations (IR) on Corporate Websites</a></li>
+            
+              <li><a href="/reports/pr-websites/?lm=contact-us-pages&amp;pt=article">PR on Websites</a></li>
+            
+              <li><a href="/reports/about-us-presenting-company-information/?lm=contact-us-pages&amp;pt=article">Presenting Company Information on Corporate Websites and in About Us Sections</a></li>
+            
+          </ul>
+        </div>
+      
+
+      
+        <div>
+          <h3>Online Seminars</h3>
+          <ul class="no-bullet">
+            
+              <li><a href="/online-seminars/accessibility-lawsuits-web-design/?lm=contact-us-pages&amp;pt=article">How Accessibility Lawsuits are Driving Better Web Design</a></li>
+            
+              <li><a href="/online-seminars/top-intranet-design-trends-2019/?lm=contact-us-pages&amp;pt=article">Top Intranet Design Trends of 2019</a></li>
+            
+              <li><a href="/online-seminars/fundamental-flaw-flat-design/?lm=contact-us-pages&amp;pt=article">The Fundamental Flaw in Flat Design</a></li>
+            
+          </ul>
+        </div>
+      
+    </section>
+  </div>
+  
+
+  
+  
+  
+    <section class="videos">
+      <h3 class="mobile small desktop only">Videos</h3>
+      
+
+      
+      <div class="related-videos">
+        <ul class="inline no-bullet four column grid">
+          
+            <li>
+              <div class="video tile">
+                <div class="media">
+                  <a href="/videos/copying-famous-companies-designs/" tabindex="-1" aria-hidden="true">
+                    
+                    <img src="https://media.nngroup.com/media/videos/thumbnails/Risk_of_Copying_Famous_Companies_Designs_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg" srcset="https://media.nngroup.com/media/videos/thumbnails/Risk_of_Copying_Famous_Companies_Designs_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg, https://media.nngroup.com/media/videos/thumbnails/Risk_of_Copying_Famous_Companies_Designs_Thumbnail.jpg.1300x728_q75_autocrop_crop-smart_upscale.jpg 2x" alt="">
+                    
+                    <div class="overlay">
+                      <span class="color icon fab fa-youtube"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="content">
+                  <p><a href="/videos/copying-famous-companies-designs/?lm=contact-us-pages&amp;pt=article">Risk of Copying Famous Companies&#39; Designs</a></p>
+                  <p><time>3 minute video</time></p>
+                </div>
+              </div>
+            </li>
+          
+            <li>
+              <div class="video tile">
+                <div class="media">
+                  <a href="/videos/teen-users-vs-other-age-groups/" tabindex="-1" aria-hidden="true">
+                    
+                    <img src="https://media.nngroup.com/media/videos/thumbnails/Teen_Users_Compared_to_Other_Age_Groups_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg" srcset="https://media.nngroup.com/media/videos/thumbnails/Teen_Users_Compared_to_Other_Age_Groups_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg, https://media.nngroup.com/media/videos/thumbnails/Teen_Users_Compared_to_Other_Age_Groups_Thumbnail.jpg.1300x728_q75_autocrop_crop-smart_upscale.jpg 2x" alt="">
+                    
+                    <div class="overlay">
+                      <span class="color icon fab fa-youtube"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="content">
+                  <p><a href="/videos/teen-users-vs-other-age-groups/?lm=contact-us-pages&amp;pt=article">Teenage Users Compared to Other Age Groups</a></p>
+                  <p><time>2 minute video</time></p>
+                </div>
+              </div>
+            </li>
+          
+            <li>
+              <div class="video tile">
+                <div class="media">
+                  <a href="/videos/website-design-high-context-cultures/" tabindex="-1" aria-hidden="true">
+                    
+                    <img src="https://media.nngroup.com/media/videos/thumbnails/Website_Design_in_High_Context_Cultures_like_China_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg" srcset="https://media.nngroup.com/media/videos/thumbnails/Website_Design_in_High_Context_Cultures_like_China_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg, https://media.nngroup.com/media/videos/thumbnails/Website_Design_in_High_Context_Cultures_like_China_Thumbnail.jpg.1300x728_q75_autocrop_crop-smart_upscale.jpg 2x" alt="">
+                    
+                    <div class="overlay">
+                      <span class="color icon fab fa-youtube"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="content">
+                  <p><a href="/videos/website-design-high-context-cultures/?lm=contact-us-pages&amp;pt=article">Website Design in High-Context Cultures like China</a></p>
+                  <p><time>4 minute video</time></p>
+                </div>
+              </div>
+            </li>
+          
+            <li>
+              <div class="video tile">
+                <div class="media">
+                  <a href="/videos/dont-listen-to-customers/" tabindex="-1" aria-hidden="true">
+                    
+                    <img src="https://media.nngroup.com/media/videos/thumbnails/Dont_Listen_to_Customers_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg" srcset="https://media.nngroup.com/media/videos/thumbnails/Dont_Listen_to_Customers_Thumbnail.jpg.650x364_q75_autocrop_crop-smart_upscale.jpg, https://media.nngroup.com/media/videos/thumbnails/Dont_Listen_to_Customers_Thumbnail.jpg.1300x728_q75_autocrop_crop-smart_upscale.jpg 2x" alt="">
+                    
+                    <div class="overlay">
+                      <span class="color icon fab fa-youtube"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="content">
+                  <p><a href="/videos/dont-listen-to-customers/?lm=contact-us-pages&amp;pt=article">Don&#39;t Listen to the Customers</a></p>
+                  <p><time>3 minute video</time></p>
+                </div>
+              </div>
+            </li>
+          
+        </ul>
+      </div>
+      
+    </section>
+  
+  
+
+  
+
+  
+    
+<section class="comments" id="comments">
+  <h2>Comments (Beta)</h2>
+  <div id="gcNoCookies" style="display:none;">
+    <p>You must accept cookies in the "Preferences" category in order to display Discussions.  <a href="javascript:Cookiebot.renew();">Change your cookie consent preferences</a>.</p>
+  </div>
+  
+  <div id="gcJoin" class="join" style="display:none;">
+    <p><button id="joinButton" class="secondary button">Post a Comment</button></p>
+  </div>
+  
+  <section id="graphcomment"><noscript><p>Commenting requires that javascript be enabled in the browser</p></noscript></section>
+  <p class="center aligned"><a href="/comments-terms-of-use/">NN/g Comments Terms of Use</a></p>
+</section>
+
+    
+<input type='hidden' name='csrfmiddlewaretoken' value='7FAr2SipwdnUMwviqfeeveqQj2dMZaMw3tMhcDan1excaQXytoniTKbQk8EYvz2l' />
+<div id="gcModal" aria-hidden="true" class="comments-join-wizard modal slide">
+  <div class="overlay" tabindex="-1">
+    <div class="container" role="dialog" aria-modal="true" aria-labelledby="gcModalTitle">
+
+      <div id="gcParticipateStep">
+        <header>
+            <h2>Participating in NN/g Comments</h2>
+            <button class="close" tabindex="-1"><span class="fa fas fa-times"></span></button>
+        </header>
+        <div class="content-container">
+          <div class="content">
+            <p>You are eligible to join a Beta trial of NN/g Comments.</p>
+            <ul>
+                <li>Different viewpoints and respectful, informative debates are welcome</li>
+                <li>Irrelevant or abusive comments will not be published</li>
+                <li>NN/g authors may or may not respond to comments</li>
+                <li>Your comments, display name, and portrait will be displayed on this website</li>
+            </ul>
+            <p>To enable comments on this website, we log user data and share it with service providers. Click “Agree and Continue” below to accept the <a id="gcModal_Terms">Terms of Use</a> and begin commenting!</p>
+          </div>
+        </div>
+        <footer>
+          <a data-micromodal-close>Cancel</a>&nbsp;&nbsp;
+          <button class="secondary button" aria-label="Done">Agree and Continue</button>
+        </footer>
+      </div>
+
+      <div id="gcDisplayNameStep" style="display: none;">
+        <header>
+          <h2>Choose a display name</h2>
+          <button class="close" tabindex="-1"><span class="fa fas fa-times"></span></button>
+        </header>
+        <form id="gcModalForm">
+          <div class="content-container">
+            <div class="content">
+              <p>
+                Your display name will appear next to your comments, and must be unique, at least 8 characters, and not more than 25 characters. We recommend using your full name. You can change this name at any time by logging in to your profile on this website.
+              </p>
+              <p>Your Display Name will be:</p>
+              <div class="form-row">
+                <input type="text" name="display_name" maxlength="25" data-initial="" value="" autocomplete="off">
+              </div>
+              <p class="error" style="display:none;"></p>
+            </div>
+          </div>
+          <footer>
+            <a data-micromodal-close>Cancel</a>&nbsp;&nbsp;
+            <input class="secondary button" aria-label="Save and Continue" type="Submit" value="Save and Continue">
+          </footer>
+        </form>
+      </div>
+
+      <div id="gcPortraitExplainStep" style="display: none;">
+        <header>
+          <h2>Add your photo (optional)</h2>
+          <button class="close" tabindex="-1"><span class="fa fas fa-times"></span></button>
+        </header>
+        <div class="content-container">
+          <div class="content">
+            <p>You may optionally upload a portrait of your face.</p>
+            <p>This portrait will appear next to any comments you post on this website. You can change or remove your portrait at any time by logging in to your account on this website.</p>
+          </div>
+        </div>
+        <footer>
+          <a id="gcPortraitExplainStep_Skip">Skip this step</a>&nbsp;&nbsp;
+          <button class="secondary button" aria-label="Done">Continue to Upload</button>
+        </footer>
+      </div>
+
+      <div id="gcPortraitStep" style="display: none;">
+        <header>
+          <h2>Add your photo (optional)</h2>
+          <button class="close" tabindex="-1"><span class="fa fas fa-times"></span></button>
+        </header>
+        <div class="content-container">
+          <div class="content">
+            <p>Please upload a portrait of your face.</p>
+            <p>This portrait will appear next to any comments you post on this website. You can change or remove your portrait at any time by logging in to your account on this website.</p>
+            <div class="upload-picture">
+              <div id="portraitPlaceholder" class="profile-portrait__placeholder" style="display: none;"></div>
+              <img id="profilePortrait" src="" class="profile-portrait__portrait" style="display: none;">
+              <form id="profileImageForm" method="post" class="profile-portrait__form" data-portrait-url="">
+                <tr><th></th><td><input type="hidden" name="portrait" class="profile-portrait__file" id="commentPortraitUpload" data-clearable="" data-integration="Django/1.11.9; PyUploadcare-Django/2.6.0" data-images-only="" role="uploadcare-uploader" data-public-key="1b28b020c87998e49057" data-crop="255x255 minimum" data-image-shrink="255x255" /></td></tr>
+              </form>
+              <p id="profilePortraitError" class="profile-portrait__errors error"></p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <a data-micromodal-close>Cancel</a>&nbsp;&nbsp;
+          <button class="secondary button" aria-label="Done">Done</button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="authModal" aria-hidden="true" class="modal slide">
+  <div class="overlay" tabindex="-1">
+    <div class="container fixed-min" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <form id="authModalForm">
+        <header>
+          <h2>NN/g Comments</h2>
+          <button class="close" tabindex="-1"><span class="fa fas fa-times"></span></button>
+        </header>
+        <div class="content-container">
+          <div class="content">
+            <p>If you already have an NN/g account, please log in to post your comment.</p>
+            <p class="error" style="display:none;"></p>
+            <div class="form-row">
+              <label for="id_username">Username:</label>
+              <input id="id_username" type="text" name="username" maxlength="150">
+            </div>
+            <div class="form-row">
+              <label for="id_password">Password:</label>
+              <input id="id_password" type="password" name="password" maxlength="100">
+            </div>
+          </div>
+        </div>
+        <footer>
+          <a href="/forgot-password/">Forgot password</a>&nbsp;&nbsp;&nbsp;
+          <input id="authLoginButton" type="submit" class="secondary button" aria-label="Log in" value="Log in">
+        </footer>
+      </form>
+
+      
+        <div id="featureOptInFormContent">
+          <form id="featureOptInForm">
+            <div class="content-container">
+              <div class="content">
+                <p><strong>Don't have an NN/g account?</strong></p>
+                <p>Commenting is currently a private beta feature. If you would like to request to join this private beta, please provide your email address and name. When beta invitations become available, we will contact you with more information.</p>
+                <p class="error" style="display:none;"></p>
+                <div class="form-row">
+                  <label for="id_email">Email:</label>
+                  <input id="id_email" type="email" name="email">
+                  <input type="hidden" name="feature_tag" id="id_feature_tag" value="ARTICLE_COMMENTS">
+                  <input type='hidden' name='csrfmiddlewaretoken' value='7FAr2SipwdnUMwviqfeeveqQj2dMZaMw3tMhcDan1excaQXytoniTKbQk8EYvz2l' />
+                </div>
+              </div>
+            </div>
+            <footer>
+              <input id="featureOptInButton" type="submit" class="secondary button" aria-label="Request Beta Invitation" value="Request Beta Invitation">
+            </footer>
+          </form>
+        </div>
+        <div id="featureOptInFormSuccess" style="display: none;">
+          <div class="content-container">
+            <div class="content">
+              <p><strong>Thank you!</strong></p>
+              <p>When beta invitations for NN/g Commenting become available, we will contact you with more information.</p>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div id="gcTermsModal" aria-hidden="true" class="terms-and-conditions modal slide">
+  <div class="overlay" tabindex="-1">
+    <div class="container" role="dialog" aria-modal="true" aria-labelledby="">
+      <header>
+        <h2 class="center aligned">NN/g Comments Terms of Use</h2>
+      </header>
+      <div class="content-container">
+        <div class="content"><p><strong>To start commenting visit any article, and&nbsp;<a href="https://www.nngroup.com/login/">log in</a>&nbsp;or post a comment as a guest.&nbsp;</strong></p>
+
+<p>NN/g Comments allow members to share their experiences and perspectives about user experience. Participants who share comments should note:&nbsp;</p>
+
+<ul>
+	<li>Irrelevant or abusive comments will not be published.</li>
+	<li>Nielsen Norman Group authors may or may not respond to comments.</li>
+	<li>Different viewpoints and respectful, informative debates are welcome.&nbsp;</li>
+	<li>Links are not allowed within comments, in order to avoid spam.&nbsp;</li>
+	<li>All comments, replies, and author display names will be visible to any visitor to the nngroup.com website, and indexable by search engines.&nbsp;&nbsp;</li>
+</ul>
+
+<p>We encourage debate and are happy to see opposing viewpoints intelligently expressed and clearly argued. We enable commenting to facilitate learning and discussion between readers; NN/g authors may or may not respond to comments.</p>
+
+<p>Comments are moderated to ensure a high level of quality and collegiality, and a respectful and informative discussion. We may edit or delete comments that are off-topic, lengthy or poorly written rants, ad hominem attacks, failure to respect fellow commenters, or that don&rsquo;t add value to the conversation that&rsquo;s underway. We do not publish comments which contain profanity, violent or threatening language, advertising, irrelevant links, or spam. Anyone posting these types of comments may be blocked from commenting in the future.&nbsp; We will moderate comments as quickly as possible, but there may be delays on weekends and after business hours.</p>
+
+<p>Privacy: When you post a comment, your username and the photo you have provided will be visible to other www.nngroup.com website visitors. We use processors to manage your comments and your portrait, if you choose to share one. For more information about how your data will be handled please refer to the processors&rsquo; policies:</p>
+
+<ul>
+	<li>Comments: Graphcomment&nbsp; <a href="https://graphcomment.com/en/conditions.html#5">https://graphcomment.com/en/conditions.html#5</a></li>
+	<li>Portrait: Uploadcare: <a href="https://uploadcare.com/about/privacy_policy_20190725/">https://uploadcare.com/about/privacy_policy_20190725/</a></li>
+</ul>
+
+<p>Please refer to our <a href="/privacy-policy/">Privacy Policy</a> for more information about how Nielsen Norman Group stores and uses your personal information.&nbsp;</p>
+
+<p>Nielsen Norman Group makes no representations about the accuracy of any information in the comment section. By submitting a comment, you agree that the comment content is your own, and to hold Nielsen Norman Group harmless from any and all repercussions, damages, or liability. From time to time, these Terms of Use may be updated; any changes will be published to this page.</p>
+
+<p>Happy reading, and thanks for sharing your thoughts with other members of the NN/g Community.</p>
+
+<p><strong>To start commenting, visit any NN/g article, and&nbsp;<a href="https://www.nngroup.com/login/">log in</a>&nbsp;or post a comment as a guest.</strong></p>
+
+<p>&nbsp;</p>
+
+<p><em>Updated: February 5, 2020</em></p></div>
+      </div>
+      <footer>
+        <div class="agree">
+          <a href="/comments-terms-of-use/" class="left show-for-medium-up small large desktop only">View Full Screen or Print</a>
+          <a id="gcTermsModal_Cancel" data-micromodal-close>Cancel</a>
+          <button id="gcTermsModal_Agree" class="secondary button">Agree and Close</button>
+        </div>
+        <div class="show-for-small-down only mobile">
+          <div class="center aligned view-or-print"><a href="/comments-terms-of-use/">View Full Screen or Print</a></div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<script>
+  var COMMENTS_JOIN_WIZARD = {
+    api: {
+      feature_opt_in: "https://www.nngroup.com/api/feature_opt_in/",
+      login: "https://www.nngroup.com/api/auth/login/",
+      login_status: "https://www.nngroup.com/api/user/login_status/",
+      set_display_name: "https://www.nngroup.com/api/user/set_display_name/"
+    }
+  };
+</script>
+
+  
+
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+    
+    
+
+
+<footer class="main">
+  <div class="wrapper">
+    <div class="two column grid">
+      <div class="topics">
+        <div class="small large desktop only">
+          <h4 class="bold">Popular Topics</h4>
+          
+          <ul class="no-bullet">
+            
+              <li><a href="/topic/agile/">Agile &amp; Lean UX</a></li>
+            
+              <li><a href="/topic/applications/">Application Design </a></li>
+            
+              <li><a href="/topic/ux-design-process/">Design Process </a></li>
+            
+              <li><a href="/topic/e-commerce/">Ecommerce Design</a></li>
+            
+              <li><a href="/topic/eyetracking/">Eyetracking </a></li>
+            
+              <li><a href="/topic/human-computer-interaction/">Human Computer Interaction </a></li>
+            
+              <li><a href="/topic/information-architecture/">Information Architecture </a></li>
+            
+              <li><a href="/topic/interaction-design/">Interaction Design </a></li>
+            
+              <li><a href="/topic/intranets/">Intranet Design</a></li>
+            
+              <li><a href="/topic/mobile-and-tablet-design/">Mobile &amp; Tablet Design</a></li>
+            
+              <li><a href="/topic/persuasive-design/">Persuasive Design </a></li>
+            
+              <li><a href="/topic/research-methods/">Research Methods </a></li>
+            
+              <li><a href="/topic/user-testing/">User Testing </a></li>
+            
+              <li><a href="/topic/ux-teams/">UX Teams </a></li>
+            
+              <li><a href="/topic/web-usability/">Web Usability </a></li>
+            
+              <li><a href="/topic/writing-web/">Writing &amp; Content Strategy</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="fixed two column grid">
+        <div class="about">
+          <h4 class="bold">About</h4>
+          <ul class="no-bullet">
+	<li><a href="/about/contact/">Contact information</a></li>
+	<li><a href="/about/">About Us</a></li>
+	<li><a href="/about/why-nng/">Why NN/g? </a></li>
+	<li><a href="/return-policy/">Return Policy</a></li>
+	<li><a href="/cookie-declaration/">Cookie Declaration</a></li>
+	<li><a href="/privacy-policy/">Privacy Policy</a></li>
+</ul>
+        </div>
+
+        <div class="social">
+          <h4 class="bold">Follow us</h4>
+          <ul class="no-bullet">
+            <li>
+              <a class="fluid button newsletter" href="/articles/subscribe/">Subscribe to Our Newsletter</a>
+            </li>
+
+            <li>
+              <a class="fluid button" href="https://twitter.com/nngroup">
+                <span class="fab fa-twitter color"></span>Follow NN/g on Twitter
+              </a>
+            </li>
+
+            <li>
+              <a class="fluid button" href="/feed/rss/">
+                <span class="fas fa-rss-square color"></span>Subscribe to Our RSS Feed
+              </a>
+            </li>
+          </ul>
+
+          <ul class="no-bullet websites">
+            <li>
+              Visit Don Norman's Website<br>
+              <a href="https://www.jnd.org/" target="new">www.jnd.org</a>
+            </li>
+            <li>
+              Visit Tog's Website</br>
+              <a href="https://www.asktog.com/" target="new">www.asktog.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="one column grid copyright">
+      <p><a href="/copyright-and-reprint-info/">Copyright</a> &copy; 1998-2020 Nielsen Norman Group, All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    
+
+    <button class="back-to-top" title="Back to top"><span class="text"><span class="fas fa-caret-up arrow" aria-hidden="true"></span><br/>Top</span></button>
+
+    
+
+    <script type="text/javascript" src="https://media.nngroup.com/static/js/c579d2ec3e34.js"></script>
+
+    
+      <script>
+        $.get('/cart/ajax/header/', function(json) {
+          if (json.html !== '') {
+              $('.shopping-cart').append(json.html);
+              $('.shopping-cart a').prepend('<span class="fas fa-shopping-cart color"></span>&nbsp;');
+          }
+        });
+      </script>
+    
+    
+  
+  
+  <script type="text/javascript">;!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="/",n(n.s=409)}({409:function(e,t,n){e.exports=n(410)},410:function(e,t){function n(e){for(var t=0;t<e.length;t++)e[t].style.display="none"}function r(e){for(var t=0;t<e.length;t++)e[t].style.display=""}var o;o=function(){var e,t,o,u,l,c,i,a;e=document.querySelectorAll("#navTopicsAll"),t=document.querySelectorAll("#navTopicsPopular"),o=document.querySelector("#navTopics__seeAll"),u=document.querySelector("#navTopics__seeFewer"),o.addEventListener("click",function(o){o.preventDefault(),n(t),r(e)}),u.addEventListener("click",function(o){o.preventDefault(),n(e),r(t)}),l=document.querySelectorAll("#navAuthorsAll"),c=document.querySelectorAll("#navAuthorsMain"),i=document.querySelector("#navAuthors__seeAll"),a=document.querySelector("#navAuthors__seeFewer"),i.addEventListener("click",function(e){e.preventDefault(),n(c),r(l)}),a.addEventListener("click",function(e){e.preventDefault(),n(l),r(c)})},"loading"!=document.readyState?o():document.addEventListener("DOMContentLoaded",o)}});</script>
+
+  
+    
+
+
+
+
+<script>
+  var website = 'nngroup'; // variable required for counter
+  window.graphcomment_id = website;
+  window.gc_params = {
+    sso_public_key: 'CV4MhFrfGbrfVJZG1KFG3yYyumTZNwdARuWImzIz8dIU5klCsvw=',
+    sso_data: ''
+  };
+
+  window.gcSsoAuth = function() {
+    window.gcSsoLogin(window.gc_params.sso_data);
+  };
+
+  var GRAPHCOMMENT = {
+    api: {
+      gc_auth: "https://www.nngroup.com/api/user/gc_sso_data/"
+    }
+  };
+</script>
+
+<script type="text/javascript">
+  (function() {
+    // get all counters
+    var counters = document.querySelectorAll('.gc-counter');
+    Array.prototype.forEach.call(counters, function(counter) {
+      var url = counter.dataset.url;
+      var uid = counter.dataset.uid;
+      var req = new XMLHttpRequest();
+
+      // called when the ajax request is completed
+      req.onreadystatechange = function(){
+        if (this.readyState == 4) {
+          if (this.status === 200) {
+            try {
+              var resp = JSON.parse(this.responseText);
+            } catch (e) {
+              counter.textContent = 0;
+              console.error(
+                '[gc-counter] fail to decode response "' + this.responseText + '", using url "' + url + '"'
+              );
+              return;
+            }
+            if (typeof resp.count !== 'undefined') {
+              // write count
+              counter.textContent = resp.count;
+            }
+          } else {
+            counter.textContent = 0;
+            console.error(
+              '[gc-counter] invalid url "' + url + '", this url is not rattached to a GraphComment page.'
+            );
+          }
+        }
+      }
+
+      // send ajax request
+      var query = 'website=' + encodeURIComponent(website)
+        + '&url=' + encodeURIComponent(url)
+        + (uid ? '&uid=' + encodeURIComponent(uid) : '')
+      ;
+      req.open('GET', 'https://graphcomment.com/api/pub/numberOfComments?' + query, true);
+      req.send();
+    });
+  })();
+</script>
+
+<script type="text/plain" data-cookieconsent="preferences">
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+</script>
+
+<script>
+  var COMMENTS_JOIN_WIZARD = {
+    api: {
+      feature_opt_in: "https://www.nngroup.com/api/feature_opt_in/",
+      login: "https://www.nngroup.com/api/auth/login/",
+      login_status: "https://www.nngroup.com/api/user/login_status/",
+      set_display_name: "https://www.nngroup.com/api/user/set_display_name/"
+    }
+  };
+</script>
+
+<script defer src="https://ucarecdn.com/libs/widget/3.x/uploadcare.min.js"></script>
+<script defer src="https://ucarecdn.com/libs/widget-tab-effects/1.x/uploadcare.tab-effects.js"></script>
+<script type="text/javascript" src="https://media.nngroup.com/static/js/bc0d917233b8.js" defer></script>
+<script>
+  var UPLOADCARE_PUBLIC_KEY = '';
+  var UPLOADCARE_TABS = 'file camera url';
+  var UPLOADCARE_IMAGES_ONLY = true;
+  var UPLOADCARE_PREVIEW_STEP = true;
+  var UPLOADCARE_CLEARABLE = true;
+  var UPLOADCARE_LOCALE_TRANSLATIONS = {
+    buttons: {
+      choose: {
+        images: {
+          one: 'Upload Portrait'
+        }
+      }
+    }
+  };
+  var PROFILE_PORTRAIT = {
+    api: {
+      remove_portrait: "https://www.nngroup.com/api/user/set_profile_portrait/",
+      set_portrait: "https://www.nngroup.com/api/user/set_profile_portrait/"
+    }
+  };
+</script>
+
+<script type="text/javascript" src="https://media.nngroup.com/static/js/47f3367e45e8.js"></script>
+<script>
+  window.addEventListener('CookiebotOnAccept', function (e) {
+    if (Cookiebot.consent.preferences) {
+        $("#gcNoCookies").hide();
+    } else {
+        $("#gcNoCookies").show();
+    }
+  }, false);
+
+  window.addEventListener('CookiebotOnDecline', function (e) {
+    $("#gcNoCookies").show();
+  });
+
+  $(function() {
+    if (Cookiebot.consent == undefined) {
+      $("#gcNoCookies").show();
+    }
+
+    $(".upload-picture").nng_portraitUpload();
+  });
+</script>
+
+  
+
+
+    <script>
+      function pushCookieConsent() {
+        Cookiebot.consent.preferences&&dataLayer.push({event:"cookieconsent_preferences"});Cookiebot.consent.statistics&&dataLayer.push({event:"cookieconsent_statistics"});Cookiebot.consent.marketing&&dataLayer.push({event:"cookieconsent_marketing"});
+      };
+    </script>
+    
+      <script>
+        function CookiebotCallback_OnAccept(){
+          // The CookiebotCallback_OnAccept will only fire the last defined
+          // instance of the callback function, so pushCookieConsent needs to
+          // be added to any instances of this callback defined in other
+          // templates.  See the video detail template for an example.
+          pushCookieConsent();
+        };
+
+        window.addEventListener('CookiebotOnAccept', function (e) {
+        });
+
+        window.addEventListener('CookiebotOnDecline', function (e) {
+        });
+      </script>
+    
+  </body>
+</html>

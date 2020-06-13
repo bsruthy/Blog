@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="contianer">
+	<div class="row">
+		<div class="col-lg-12 text-center uk-padding-large">
+			<div class="uk-card uk-card-default uk-margin-large">
+				{% if invalid_request %}
+					<h6>You are requested invalid resource</h6>
+				{% else %}
+					<div class="uk-card uk-card-default uk-width-1-1@m">
+					    <div class="uk-card-header">
+					        <div class="uk-grid-small uk-flex-middle" uk-grid>
+					            {% if request.user.user_profile.profile_pic %}
+									<img style="border-radius: 75px;" src="{{ request.user.user_profile.profile_pic.url }}" alt="Profile pic" width="100" height="">		
+								{% else %}
+									<img src="https://i.ya-webdesign.com/images/user-avatar-png-7.png" width="100" alt="">
+											
+								{% endif %}
+					            <div class="uk-width-expand" style="background-color: #1a2980">
+					                <h3 class="uk-card-title uk-margin-remove-bottom text-white">{{post.title}}</h3>
+					                <p class="uk-text-meta uk-margin-remove-top text-white"><time datetime="2016-04-01T19:00">
+					                	{{post.created_at|date}}
+					                </time></p>
+					            </div>
+					        </div>
+					    </div>
+					    <div class="uk-card-body">
+					        <p>{{post.text}}</p>
+					    </div>
+					    <div class="uk-card-footer">
+					        <a href="#" class="uk-button uk-button-text">Like</a>
+					    </div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

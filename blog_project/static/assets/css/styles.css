@@ -1,0 +1,91 @@
+.padding_10{
+	padding-top: 10px;
+}
+.padding_20{
+	padding-top: 20px;
+}
+.contaimaner_box{
+	margin-top: 30px;
+	border-radius: 15px;
+}
+.hr{
+	width: 50px;
+	margin: 0 auto;
+	height: 3px;
+	background-color: #1a2980; 
+    border: none;
+}
+.icon_btn{
+	background-color: white;
+	border:1px solid #aaaaaa;
+}
+.main_box{
+	border-radius: 15px;
+	/*border-bottom-left-radius: 15px;*/
+}
+.one{
+	/*padding: 25px;*/
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	/*padding-bottom: 25px*/
+	height: 100vh;
+	background-color:white;
+}
+.three{
+	background: #1a2980;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to top, #1a2980, #26d0ce);  /* Chrome 10-25, Safari 5.1-6 */*/
+	background: linear-gradient(to top, #1a2980, #1a2980); 
+	height: 80vh;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius:  20px;
+	padding-top: 60px;
+
+}
+.two{
+	background-color: white;
+	border-bottom-right-radius: 15px;
+	border-top-style: 15px;
+}
+span{
+	color:#1a2980;
+
+}
+.five{
+	border-radius: 25px;
+	background-color:#1a2980;
+	color: white;
+}
+h2{
+	color:#1a2980;
+}
+.nine{
+	/*border-color: #1a2980;*/
+}
+.ten{
+	/*border-color: #1a2980;*/
+}
+.fb_color{
+	background-color: #3b5998;
+	color:white;
+}
+.ld_color{
+	background-color: #0e76a8;
+	color:white;
+}
+.git_color{
+	background-color: #AD5C51;
+	color:white;
+}
+.seven{
+	border-radius: 25px;
+	/*background-color:#f44336;*/
+	opacity: 0.6;
+	color: white;
+	border-color: white;
+	border:1px solid white;
+}
+.seven:hover{
+	color:white;
+	background-color: #9C27B0;
+}

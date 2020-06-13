@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main %}
+	{% if invalid_details %}
+		<h6 class="text-danger">Invalid Username/password</h6>
+	{% endif %}
+	<section class="one" style="background-image: url(assets/images/background.jpg);">
+		<div class="container uk-card uk-card-default uk-card-hover contaimaner_box in_box">
+			<div class="row main_box">
+				<div class="col-lg-8 two main_box">
+					<div class="row padding_10">
+						<div class="col-lg-12 text-left">	
+								<h5 class="uk-text-bold"><span><b>Blog</b></span>&nbsp;ging</h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 offset-3">
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<h2><b>Sign into Account</b></h2>
+									<hr class="hr">
+								</div>
+							</div>
+							<div class="row padding_20">
+								<div class="col-lg-12 text-center">
+									<a href="" class="uk-icon-button  fb_color" uk-icon="facebook"></a>
+									<a href="" class="uk-icon-button ld_color" uk-icon="linkedin"></a>
+									<a href="" class="uk-icon-button git_color" uk-icon="github"></a>
+								</div>
+							</div>
+							<div class="row padding_10">
+								<div class="col-lg-12 text-center">
+									<p class="uk-text-meta">or use your email account</p>
+								</div>
+							</div>
+							<form method='POST'>
+								{% csrf_token %}
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<div class="uk-margin">
+		    							<input class="uk-input nine" type="text" name=username placeholder="Username" value="">
+									</div>
+								</div>
+								<div class="col-lg-12 text-center">
+									<div class="uk-margin">
+		    							<input class="uk-input ten" type="password" name="password" placeholder="Password" value="">
+									</div>
+								</div>
+								<div class="col-lg-6 text-left">
+									<label class="uk-text-meta"><input class="uk-checkbox" type="checkbox"> Remember me</label>
+								</div>
+								<div class="col-lg-6 text-right">
+									<a href="" class="uk-button-text uk-text-meta">Forget password</a>
+								</div>
+								<div class="col-lg-6 offset-3 padding_20">
+									<button class="uk-button uk-button-default five btn-block">Sign in</button>
+								</div>
+							</div>
+						</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 three">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 style="color: white;"><b>Hello,Friend!</b></h2>
+							
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<p style="color: white;">Fill up the personal information<br>and start journey with us</p>
+							
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<a href="{% url 'user_registration' %}"
+							<button class="uk-button uk-button-default seven uk-text-bold">Register</button>
+							</a>
+						</div>
+					</div>
+					<div class="row uk-margin-medium-top">
+						<div class="col-lg-12 text-center">
+							<img src="{% static 'assets/images/festival.png' %}" width="200" height="200">
+						</div>
+					</div>
+				</div>		
+			</div>
+			</div>
+	</section>
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block main %}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8 uk-padding-large text-center">
+				<h1 style="color: #1a2980;"><b>My Posts</b></h1>
+				<br>
+				<br>
+				{% for message in messages %}
+					<div uk-alert>
+						<a class="uk-alert-close"
+							uk-close></a>
+							<p>{{message}}</p>	
+					</div>	
+				{% endfor %}
+			
+				{% for post in my_posts %}
+					<div class="uk-card uk-card-default uk-width-1-1@m">
+						<div class="uk-card-header" style="background-color: #1a2980">
+						    <div class="uk-grid-small uk-flex-middle" uk-grid>
+						        <div class="uk-width-auto">
+						            {% if request.user.user_profile.profile_pic %}
+										<img style="border-radius: 75px;" src="{{ request.user.user_profile.profile_pic.url }}" alt="Profile pic" width="50" height="50">
+									{% else %}
+										<img src="https://i.ya-webdesign.com/images/user-avatar-png-7.png" width="50" height="50" alt="">
+									{% endif %}    
+						         </div>
+						         <div class="uk-width-expand">
+						            <h5 class="uk-card-title uk-margin-remove-bottom" style="color: white"><b>{{ post.title}}</b></h5>
+						            <p class="uk-text-meta uk-margin-remove-top" style="color:white"><time datetime="2016-04-01T19:00"><b>{{post.created_at|date}}</time></p>
+						         </div>
+						    </div>
+						</div>
+						<div class="uk-card-body">
+						    <p>{{ post.text }}</p>
+						</div>
+						<div class="uk-card-footer text-right" style="background-color:#1a2980">
+						    <a href="{% url 'post_delete' post.pk %}" class="uk-icon-link" style="color: white;"  uk-icon="trash"></a>
+						    <a href="{% url 'post_edit' post.pk %}" class="uk-icon-link" style="color: white" uk-icon="pencil"></a>
+						    <a href="" class="uk-icon-link" style="color: white" uk-icon="social"></a>
+						</div>
+					</div>	
+				{% endfor %}
+			</div>
+			<div class="col-lg-4 text-center uk-padding-large">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 uk-padding-large text-center">
+							<a style="color: #1a2980" href="{% url 'user_profile' %}"><b>Update Profile</b></a>	
+								<div class="row">
+									<div class="col-lg-12">
+										{% if request.user.user_profile.profile_pic %}
+											<img style="border-radius: 75px;" src="{{ request.user.user_profile.profile_pic.url }}" alt="Profile pic" width="100" height="">
+										{% else %}
+											<img src="https://i.ya-webdesign.com/images/user-avatar-png-7.png" width="100" alt="">
+										{% endif %}
+										<br>
+										<h6>My First name is <span>{{ request.user.user_profile.first_name }}</span></h6>
+										<br>
+										<h6>My Last name is <span>{{ request.user.user_profile.last_name }}</span></h6>
+										<br>
+										<h6>My contact number: <span>{{ request.user.user_profile.contact_phone }}</span></h6>
+										<br>
+										<p>{{ request.user.user_profile.about }}</p>
+										
+										
+									</div>
+									
+								</div>						
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+{% endblock %}

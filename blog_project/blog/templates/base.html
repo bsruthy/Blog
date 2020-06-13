@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Blog</title>
+    <link href="{% static 'assets/css/uikit.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/styles.css' %}" rel="stylesheet">
+
+
+</head>
+<body>
+				<nav class="uk-navbar-container" uk-navbar style="background-color:#1a2980;">
+
+					    <div class="uk-navbar-left">
+
+					        <ul class="uk-navbar-nav">
+					        	<a class="text-white" href="{% url 'home' %}"
+					            <li class="uk-active" style="color: white"><img src="{% static 'assets/images/blog.png'%}" width="150" height="150"></li>
+					        	</a>
+					           	{% if request.user.is_authenticated %}
+					            	<li class="uk-active"><a class="text-white" href="{% url 'create_post' %}"><b>Create Post</b></a></li>
+					            {% endif %}
+					            
+					        </ul>
+
+					    </div>
+					     <div class="uk-navbar-right">
+
+					        <ul class="uk-navbar-nav">
+					        	
+					        	{% if request.user.is_authenticated %}
+					            	<li class="uk-active"><a class="text-white" href="{% url 'user_dashboard' %}"><b>DashBoard</b></a></li>
+					            	<li class="uk-active"><a class="text-white" href="{% url 'user_logout' %}"><b>Logout</b></a></li>
+					  
+					            {% else %}
+					            	<li class="uk-active"><a class="text-white" href="{% url 'user_login' %}"><b>Login</b></a></li>
+					            	<li class="uk-active"><a class="text-white" href="{% url 'user_registration' %}"><b>Register</b></a></li>
+					            {% endif %}
+
+					        </ul>
+
+					    </div>
+
+					</nav>
+
+
+					{% block main %}
+						{% endblock %}
+
+
+
+    <script type="text/javascript" src="{% static 'assets/js/uikit.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'assets/js/uikit-icons.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'assets/js/jquery-3.3.1.min.js' %}"></script>	
+    <script type="text/javascript" src="{% static 'assets/js/bootstrap.min.js' %}"></script>		
+</body>
+</html>

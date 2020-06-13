@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="contianer">
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="uk-card uk-card-default">
+			<div class="uk-margin-medium-top uk-margin-medium-left">
+				<ul class="uk-thumbnav" uk-margin>
+					{% if request.user.user_profile.profile_pic %}
+					<li class="uk-active"><a href="#">
+						<img style="border-radius: 75px;" src="{{ request.user.user_profile.profile_pic.url }}" alt="Profile pic" width="100" height="40"></a></li>
+					{% else %}
+						<li class="uk-active"><a href="#">
+						<img src="https://i.ya-webdesign.com/images/user-avatar-png-7.png" width="100" alt=""></a></li>
+					{% endif %}
+				</ul>
+			</div>
+			<div class="uk-margin-small-top uk-margin-medium-left">
+				<h5>{{request.user.username}}</h5>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-6 uk-padding-medium uk-margin-medium-top">
+		{% for post in posts %}
+			<div class="uk-card uk-card-default uk-width-1-1@m uk-margin">
+			    <div class="uk-card-header">
+			        <div class="uk-grid-small uk-flex-middle" uk-grid>
+			        	{% if request.user.user_Post.profile_pic %}
+					         <div class="uk-width-auto">
+					                <img class="uk-border-circle" width="40" height="40" src="{{ request.user.user_profile.profile_pic.url }}">
+					            </div>
+					     {% else %}
+					      		<div class="uk-width-auto">
+					                <img class="uk-border-circle" width="40" height="40" src= "https://i.ya-webdesign.com/images/user-avatar-png-7.png"" }}"">
+					            </div>
+					     {% endif %}
+
+			            <div class="uk-width-expand" style="background-color: #1a2980;">
+			                <h3 class="uk-card-title uk-margin-remove-bottom text-white">{{post.title}}</h3>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="uk-card-body">
+			        <p>{{post.text|truncatechars:100 }}</p>
+			    </div>
+			    <div class="uk-card-footer">
+			       <span>{{post.views}} views</span>
+			    </div>
+			    <div class="uk-card-footer">
+			        <a href="{% url 'post_details' post.pk %}" class="uk-button uk-button-text"><span><b>Read more</b></span></a>
+			    </div>
+			</div>
+			<br>
+			<br>
+
+		{% endfor %}
+		</div>
+		<div class="col-lg-3 uk-padding-medium">
+			<div class="uk-padding-medium">
+				Suggestions
+			</div>
+			{% for user in users %}
+				<div class="uk-margin-medium-top">
+					<a href="">{{user}}</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+{% endblock %}
